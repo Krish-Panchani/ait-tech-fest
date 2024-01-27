@@ -1,24 +1,22 @@
-'use client'
-
+"use client";
 import React from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, NavbarMenu, NavbarMenuItem, NavbarMenuToggle} from "@nextui-org/react";
-import {AcmeLogo} from "@/app/assets/AcmeLogo";
+// import { useRouter } from "next/router";
+import { usePathname } from 'next/navigation'
+import Link from 'next/link'
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
+import { AcmeLogo } from "@/app/assets/AcmeLogo";
 import { Button } from "./ui/button";
 
-
-// const Header = () =>{
-//     return (
-        
-//     )
-// }
 export default function Header() {
+  // const router = useRouter();
+  const pathname = usePathname()
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    "Home",
-    "About",
-    "Events",
-    "Contact"
+    { label: "Home", path: "/", isActive: pathname === "/" },
+    { label: "About", path: "/about", isActive: pathname === "/about" },
+    { label: "Events", path: "/events", isActive: pathname === "/events" },
+    { label: "Contact", path: "/contact", isActive: pathname === "/contact" }
   ];
 
   return (
@@ -35,41 +33,34 @@ export default function Header() {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem isActive>
-          <Link color="foreground" href="#">
-            Home
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link href="#" aria-current="page">
-            About
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="/events">
-            Events
-          </Link>
-        </NavbarItem>
+        {menuItems.map((item, index) => (
+          <NavbarItem key={`${item.label}-${index}`} isActive={item.isActive}>
+            <Link color="foreground" href={item.path}>
+              {item.label}
+            </Link>
+          </NavbarItem>
+        ))}
       </NavbarContent>
+
       <NavbarContent justify="end">
         <NavbarItem>
           <Button color="default" variant="primary">
-          <Link href="#">Register</Link>
+            <Link href="#">Register</Link>
           </Button>
         </NavbarItem>
       </NavbarContent>
+
       <NavbarMenu>
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
+          <NavbarMenuItem key={`${item.label}-${index}`}>
             <Link
               color={
                 index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
               }
               className="w-full"
-              href="#"
-              size="lg"
+              href={item.path}
             >
-              {item}
+              {item.label}
             </Link>
           </NavbarMenuItem>
         ))}
@@ -77,4 +68,5 @@ export default function Header() {
     </Navbar>
   );
 }
+
 
