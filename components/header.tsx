@@ -11,6 +11,9 @@ export default function Header() {
   // const router = useRouter();
   const pathname = usePathname()
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const handleMenuItemClick = () => {
+    setIsMenuOpen(false); // Close the menu when a menu item is clicked
+  };
 
   const menuItems = [
     { label: "Home", path: "/", isActive: pathname === "/" },
@@ -59,6 +62,7 @@ export default function Header() {
               }
               className="w-full"
               href={item.path}
+              onClick={handleMenuItemClick}
             >
               {item.label}
             </Link>
