@@ -31,7 +31,7 @@ export default function Header() {
         />
         <NavbarBrand>
           <AcmeLogo />
-          <p className="font-bold text-inherit">ACME</p>
+          <p className="font-bold text-inherit">AIT TECHFEST</p>
         </NavbarBrand>
       </NavbarContent>
 
