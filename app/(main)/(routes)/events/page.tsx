@@ -46,15 +46,15 @@ export default function Events() {
   return (
     <>
     <div className="flex flex-col justify-center px-4 mt-6">
-      <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white mx-auto">All <mark className="px-2 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">Events</mark> at TechFest</h1>
+      <h1 className="mb-4 px-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white mx-auto">All <mark className="px-2 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">Events</mark> at <mark className="bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent">TechFest</mark></h1>
       <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 px-4 mx-auto align-middle">
         Variety of events catering to different interests and industries. From technical workshops to networking events, there is something for everyone. Stay updated with the latest event details and join us for an enriching experience.
       </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 justify-center mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 justify-center mx-auto my-4">
 
         {eventData.map((event) => (
-          <Card key={event.id} className="py-4 mx-auto">
+          <Card key={event.id} className="py-4 mx-auto border border-cyan-400 rounded-xl">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <p className="text-tiny font-bold">{event.category}</p>
               <small className="text-default-500">{event.date}</small>
