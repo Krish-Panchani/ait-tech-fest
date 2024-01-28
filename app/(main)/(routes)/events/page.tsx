@@ -1,9 +1,7 @@
 import React from "react";
 import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Link } from "lucide-react";
 import { Button } from "@/components/ui/button";
-// import { MinusIcon, PlusIcon } from "@radix-ui/react-icons"
 
 import {
   Drawer,
@@ -45,11 +43,11 @@ const eventData = [
 export default function Events() {
   return (
     <>
-    <div className="flex flex-col justify-center px-4 mt-6">
-      <h1 className="mb-4 px-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white mx-auto">All <mark className="px-2 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">Events</mark> at <mark className="bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent">TechFest</mark></h1>
-      <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 px-4 mx-auto align-middle">
-        Variety of events catering to different interests and industries. From technical workshops to networking events, there is something for everyone. Stay updated with the latest event details and join us for an enriching experience.
-      </p>
+      <div className="flex flex-col justify-center px-4 mt-6">
+        <h1 className="mb-4 px-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white mx-auto">All <mark className="px-2 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">Events</mark> at <mark className="bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent">TechFest</mark></h1>
+        <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 px-4 mx-auto align-middle">
+          Variety of events catering to different interests and industries. From technical workshops to networking events, there is something for everyone. Stay updated with the latest event details and join us for an enriching experience.
+        </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 justify-center mx-auto my-4 py-8">
 
