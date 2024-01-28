@@ -4,6 +4,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 import Header from "@/components/header";
 import Menu from "@/components/mobileMenu";
+import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,9 @@ export default function RootLayout({
           {/* <div className="flex justify-center">
             <Menu />
           </div> */}
+          <div className="mb-20 sm:mb-5 ">
+          <Footer />
+          </div>
         </Providers>
       </body>
     </html>
