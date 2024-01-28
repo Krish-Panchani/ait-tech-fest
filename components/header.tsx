@@ -24,12 +24,13 @@ export default function Header() {
 
   const menuItems = [
     { label: "Home", path: "/", isActive: pathname === "/" },
-    // { label: "About", path: "/about", isActive: pathname === "/about" },
     { label: "Events", path: "/events", isActive: pathname === "/events" },
-    { label: "Schedule", path: "/contact", isActive: pathname === "/contact" }
+    { label: "Schedule", path: "/#schedule", isActive: pathname === "/#schedule" },
+    { label: "Venue", path: "/#Venue", isActive: pathname === "/#Venue" }
   ];
 
   return (
+    <>
     <Navbar onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
         <NavbarMenuToggle
@@ -84,6 +85,25 @@ export default function Header() {
       </NavbarContent>
 
       </Navbar>
+
+        <div className="fixed bottom-5 left-0 right-0 mx-auto flex justify-center backdrop-blur-md sm:hidden z-50">
+            <div className="border border-orange-400 rounded-full  px-4 py-4">
+                <ul className="flex">
+                    {menuItems.map((item, index) => (
+                        <li key={`${item.label}-${index}`} className="px-2">
+                            <Link
+                                className={item.isActive ? "font-bold text-orange-400" : ""}
+                                href={item.path}
+                            // onClick={handleMenuItemClick}
+                            >
+                                {item.label}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </div>
+</>
     );
   }
 
