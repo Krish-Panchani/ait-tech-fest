@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-// import { useRouter } from "next/router";
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
@@ -18,7 +17,6 @@ import {
 } from "@/components/ui/drawer"
 
 export default function Header() {
-  // const router = useRouter();
   const pathname = usePathname()
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
@@ -46,7 +44,9 @@ export default function Header() {
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         {menuItems.map((item, index) => (
           <NavbarItem key={`${item.label}-${index}`} isActive={item.isActive}>
-            <Link color="foreground" href={item.path}>
+            <Link 
+            className={item.isActive ? "font-extrabold bg-gradient-to-r from-fuchsia-500 to-pink-500 bg-clip-text text-transparent" : ""}
+            href={item.path}>
               {item.label}
             </Link>
           </NavbarItem>
@@ -92,7 +92,7 @@ export default function Header() {
                     {menuItems.map((item, index) => (
                         <li key={`${item.label}-${index}`} className="px-2">
                             <Link
-                                className={item.isActive ? "font-bold text-orange-400" : ""}
+                                className={item.isActive ? "font-extrabold bg-gradient-to-r from-fuchsia-500 to-pink-500 bg-clip-text text-transparent" : ""}
                                 href={item.path}
                             // onClick={handleMenuItemClick}
                             >
