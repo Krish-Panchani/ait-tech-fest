@@ -8,7 +8,7 @@ export default function Footer() {
             <p className=" text-gray-500 dark:text-gray-400">© 2024 TechFest. All rights reserved.</p>
             <nav className="sm:ml-auto flex gap-2 sm:gap-2">
                 <h1>Developed By</h1>
-                <Link className="font-extrabold hover:underline underline-offset-4 bg-gradient-to-r from-rose-400 to-red-500 bg-clip-text text-transparent" href="#">
+                <Link className="font-extrabold hover:underline underline-offset-4 bg-gradient-to-r from-rose-400 to-red-500 bg-clip-text text-transparent" href="https://github.com/Krish-Panchani" target="_blank">
                     Krish Panchani
                 </Link>
             </nav>
