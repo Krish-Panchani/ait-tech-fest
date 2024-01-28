@@ -51,7 +51,7 @@ export default function Events() {
         Variety of events catering to different interests and industries. From technical workshops to networking events, there is something for everyone. Stay updated with the latest event details and join us for an enriching experience.
       </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 justify-center mx-auto my-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 justify-center mx-auto my-4 py-8">
 
         {eventData.map((event) => (
           <Card key={event.id} className="py-4 mx-auto border border-cyan-400 rounded-xl">
