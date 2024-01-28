@@ -74,3 +74,28 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+html {
+  scroll-behavior: smooth;
+}
+/* Scrollbar */
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: gray;
+  border-radius: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(53, 52, 52);
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: black;
+}
+
