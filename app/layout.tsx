@@ -28,9 +28,7 @@ export default function RootLayout({
           {/* <div className="flex justify-center">
             <Menu />
           </div> */}
-          <div className="mb-20 sm:mb-5 ">
           <Footer />
-          </div>
         </Providers>
       </body>
     </html>
