@@ -26,9 +26,7 @@ export const metadata: Metadata = {
     siteName: 'AIT TechFest 2024',
     images: [
       {
-        url: '/icon.png',
-        width: 800,
-        height: 600,
+        url: 'https://aitfest.thunderdevelops.in/apple-touch-icon.png',
       },
     ],
     locale: 'en_US',
@@ -36,12 +34,12 @@ export const metadata: Metadata = {
   },
 
   icons: {
-    icon: '/icon.png',
-    shortcut: '/shortcut-icon.png',
-    apple: '/apple-icon.png',
+    icon: '/android-chrome-192x192.png',
+    shortcut: '/apple-touch-icon.png',
+    apple: '/apple-touch-icon.png',
     other: {
       rel: 'apple-touch-icon-precomposed',
-      url: '/apple-icon.png',
+      url: '/apple-touch-icon.png',
     },
   },
 }
