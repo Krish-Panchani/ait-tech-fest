@@ -24,7 +24,8 @@ export default function Header() {
     { label: "Home", path: "/", isActive: pathname === "/" },
     { label: "Events", path: "/events", isActive: pathname === "/events" },
     { label: "Schedule", path: "/#schedule", isActive: pathname === "/#schedule" },
-    { label: "Venue", path: "/#Venue", isActive: pathname === "/#Venue" }
+    { label: "Venue", path: "/#Venue", isActive: pathname === "/#Venue" },
+    // { label: "Contact", path: "/#Venue", isActive: pathname === "/#Venue" }
   ];
 
   return (
@@ -37,7 +38,7 @@ export default function Header() {
         /> */}
         <NavbarBrand>
           <AcmeLogo />
-          <p className="font-bold text-inherit">AIT TECHFEST</p>
+          <p className="font-bold text-inherit">TECHFEST</p>
         </NavbarBrand>
       </NavbarContent>
 
@@ -53,10 +54,11 @@ export default function Header() {
         ))}
       </NavbarContent>
 
-      <NavbarContent justify="end">
-        {/* <NavbarItem> 
-          <Button variant="primary">Contact</Button>
-      </NavbarItem> */}
+      <NavbarContent justify="end" className="flex">
+        {/* <NavbarItem>  */}
+        <Link href={"/contact"}>Contact</Link>
+        {/* <Button variant="ghost"></Button> */}
+      {/* </NavbarItem> */}
         <NavbarItem>
           <Drawer>
             <DrawerTrigger asChild>
@@ -80,8 +82,8 @@ export default function Header() {
               </div>
             </DrawerContent>
           </Drawer>
-
-        </NavbarItem>
+          </NavbarItem>
+        
       </NavbarContent>
 
       </Navbar>
