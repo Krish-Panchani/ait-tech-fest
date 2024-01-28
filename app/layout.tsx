@@ -36,11 +36,6 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
   },
-  twitter: {
-    card: 'summary_large_image',
-    site: '@your_twitter_handle',
-    creator: '@your_twitter_handle',
-  },
 
   icons: {
     icon: '/icon.png',
