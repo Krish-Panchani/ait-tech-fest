@@ -22,11 +22,6 @@ export default function Header() {
   const pathname = usePathname()
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const handleMenuItemClick = () => {
-    setIsMenuOpen(false); // Close the menu when a menu item is clicked
-    isMenuOpen == false;
-  };
-
   const menuItems = [
     { label: "Home", path: "/", isActive: pathname === "/" },
     // { label: "About", path: "/about", isActive: pathname === "/about" },
@@ -88,26 +83,29 @@ export default function Header() {
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarMenu>
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item.label}-${index}`}>
-            <Link
-              color={
-                index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
-              }
-              className="w-full"
-              href={item.path}
-              onClick={handleMenuItemClick}
-            >
-              {item.label}
-            </Link>
-          </NavbarMenuItem>
-        ))}
-      </NavbarMenu>
-      {/* Mobile Menu */}
+      </Navbar>
+    );
+  }
+
+  // Don't forgot to add this inside </Navbar> if you want to use it again
+
+  //Bugged Mobile Menu -- (Problem: Not closing automatically when we select page) 
+      // / <NavbarMenu>
+      //   {menuItems.map((item, index) => (
+      //     <NavbarMenuItem key={`${item.label}-${index}`}>
+      //       <Link
+      //         color={
+      //           index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
+      //         }
+      //         className="w-full"
+      //         href={item.path}
+      //         onClick={handleMenuItemClick}
+      //       >
+      //         {item.label}
+      //       </Link>
+      //     </NavbarMenuItem>
+      //   ))}
+      // </NavbarMenu> 
     
-    </Navbar>
-  );
-}
 
 
