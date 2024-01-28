@@ -3,7 +3,7 @@ import React from "react";
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
-import { AcmeLogo } from "@/app/assets/AcmeLogo";
+import { Logo } from "@/app/assets/Logo";
 import { Button } from "./ui/button";
 import {
   Drawer,
@@ -38,7 +38,7 @@ export default function Header() {
           className="sm:hidden"
         /> */}
         <NavbarBrand>
-          <AcmeLogo />
+          <Logo />
           <p className="font-bold text-inherit">TECHFEST</p>
         </NavbarBrand>
       </NavbarContent>
