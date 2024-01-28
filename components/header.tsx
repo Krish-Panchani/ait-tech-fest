@@ -15,6 +15,7 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer"
+import { Separator } from "./ui/separator";
 
 export default function Header() {
   const pathname = usePathname()
@@ -24,7 +25,7 @@ export default function Header() {
     { label: "Home", path: "/", isActive: pathname === "/" },
     { label: "Events", path: "/events", isActive: pathname === "/events" },
     { label: "Schedule", path: "/#schedule", isActive: pathname === "/#schedule" },
-    { label: "Venue", path: "/#Venue", isActive: pathname === "/#Venue" },
+    { label: "Venue", path: "/#venue", isActive: pathname === "/#venue" },
     // { label: "Contact", path: "/#Venue", isActive: pathname === "/#Venue" }
   ];
 
@@ -56,7 +57,34 @@ export default function Header() {
 
       <NavbarContent justify="end" className="flex">
         {/* <NavbarItem>  */}
-        <Link href={"/contact"}>Contact</Link>
+        
+        <Drawer>
+            <DrawerTrigger asChild>
+              {/* <Button variant="orange">Details</Button> */}
+              <Link href={"#"}>Contact</Link>
+            </DrawerTrigger>
+            <DrawerContent>
+              <div className="mx-auto w-full max-w-sm">
+                <DrawerHeader>
+                  <DrawerTitle>Contact At</DrawerTitle>
+                  <Separator className="my-2" />
+                  <DrawerTitle>Faculty Co-ordinators</DrawerTitle>
+                  <DrawerDescription>Name: </DrawerDescription>
+                  <DrawerDescription>No.:</DrawerDescription>
+                  <DrawerTitle>Students Co-ordinators</DrawerTitle>
+                  <DrawerDescription>Name: </DrawerDescription>
+                  <DrawerDescription>No.:</DrawerDescription>
+                </DrawerHeader>
+
+                <DrawerFooter>
+                  {/* <Button>Submit</Button> */}
+                  <DrawerClose asChild>
+                    <Button variant="outline">Cancel</Button>
+                  </DrawerClose>
+                </DrawerFooter>
+              </div>
+            </DrawerContent>
+          </Drawer>
         {/* <Button variant="ghost"></Button> */}
       {/* </NavbarItem> */}
         <NavbarItem>
