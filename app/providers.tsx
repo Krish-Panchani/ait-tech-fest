@@ -23,12 +23,13 @@ export function Providers({children}: { children: React.ReactNode }) {
     </ContextMenuTrigger>
         <ContextMenuContent>
           <ContextMenuRadioGroup value="pedro">
-            <ContextMenuLabel inset>😑 Right Click ..??</ContextMenuLabel>
+            <ContextMenuLabel inset>😑 Finding Context Menu ..??</ContextMenuLabel>
           </ContextMenuRadioGroup>
           {/* <ContextMenuSeparator /> */}
           <Separator className='bg-gray-500' />
           <ContextMenuItem>💖 Btw Welcome to AIT TechFest</ContextMenuItem>
-          <ContextMenuItem>🥲 Inspect krnese kuch nhi milega</ContextMenuItem>
+          <ContextMenuItem>🥲 Register krle...</ContextMenuItem>
+          <ContextMenuItem>🤩 Prizes and Certificate bhi Milega</ContextMenuItem>
         </ContextMenuContent>
       </ContextMenu>
     
