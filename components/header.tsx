@@ -31,10 +31,10 @@ export default function Header() {
     <>
     <Navbar onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
-        <NavbarMenuToggle
+        {/* <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
-        />
+        /> */}
         <NavbarBrand>
           <AcmeLogo />
           <p className="font-bold text-inherit">AIT TECHFEST</p>
