@@ -39,7 +39,7 @@ export default function Header() {
         /> */}
         <NavbarBrand>
           <Logo />
-          <p className="font-bold text-inherit">TECHFEST</p>
+          <p className="font-bold text-inherit px-2">TECHFEST</p>
         </NavbarBrand>
       </NavbarContent>
 
