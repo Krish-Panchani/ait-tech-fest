@@ -20,22 +20,22 @@ const eventData = [
   {
     id: 1,
     category: "Technical",
-    date: "22 Feb",
-    title: "Code Rush",
+    date: "Date Soon",
+    title: "Reveal Soon",
     imageSrc: "/images/hero-card-complete.jpeg",
   },
   {
     id: 2,
-    category: "Workshop",
-    date: "25 Feb",
-    title: "React Workshop",
+    category: "Non-Technical",
+    date: "Date Soon",
+    title: "Reveal Soon",
     imageSrc: "/images/react-workshop.jpeg",
   },
   {
     id: 3,
-    category: "Networking",
-    date: "28 Feb",
-    title: "Tech Networking Event",
+    category: "Speaker",
+    date: "Date Soon",
+    title: "Reveal Soon",
     imageSrc: "/images/networking-event.jpeg",
   },
 
@@ -82,7 +82,7 @@ export default function Events() {
                       </DrawerHeader>
 
                       <DrawerFooter>
-                        <Button>Submit</Button>
+                        {/* <Button>Submit</Button> */}
                         <DrawerClose asChild>
                           <Button variant="outline">Cancel</Button>
                         </DrawerClose>
