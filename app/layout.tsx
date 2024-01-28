@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: 'AIT TechFest 2024',
     images: [
       {
-        url: '', // Must be an absolute URL
+        url: 'https://cdn.discordapp.com/attachments/940930289981595698/1201131297993658418/icon.png?ex=65c8b3b1&is=65b63eb1&hm=81fca492d75cda5a8b72e8a034455f6dfd2f7cdf39233d55dac84721e1b93de1&', // Must be an absolute URL
         width: 800,
         height: 600,
       },
