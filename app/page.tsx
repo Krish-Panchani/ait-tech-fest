@@ -3,7 +3,7 @@ import { Button } from '@nextui-org/button';
 import React from "react";
 import { Navbar } from "@nextui-org/react";
 import Content from "@/components/content";
-import Menu from "@/components/menu";
+import Menu from "@/components/mobileMenu";
 
 
 export default function Home() {
