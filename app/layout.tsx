@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import Header from "@/components/header";
-import Menu from "@/components/menu";
+import Menu from "@/components/mobileMenu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,9 +24,9 @@ export default function RootLayout({
 
           <Header />
           {children}
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <Menu />
-          </div>
+          </div> */}
         </Providers>
       </body>
     </html>
