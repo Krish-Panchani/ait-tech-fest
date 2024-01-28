@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Head from "next/head";
 import "./globals.css";
 import { Providers } from "./providers";
 import Header from "@/components/header";
-import Menu from "@/components/mobileMenu";
 import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -60,9 +58,6 @@ export default function RootLayout({
         <Providers>
           <Header />
           {children}
-          {/* <div className="flex justify-center">
-            <Menu />
-          </div> */}
           <Footer />
         </Providers>
       </body>
