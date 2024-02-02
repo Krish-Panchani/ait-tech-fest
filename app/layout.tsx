@@ -8,7 +8,7 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "TechFest at AIT | Ahmedabad Institute of Technology",
+  title: "TECHNOSPARX | Ahmedabad Institute of Technology",
   description: "Join us for an exciting techfest at Ahmedabad Institute of Technology! Explore a wide range of technical and non-technical events, including workshops, hackathons, guest lectures, and much more. Don't miss this opportunity to showcase your skills, learn from industry experts, and connect with like-minded individuals. Register now and be a part of the ultimate tech extravaganza!",
   keywords: ['AIT', 'TECHFEST 2024', 'Ahmedabad'],
   authors: [{ name: 'Krish Panchani', url: 'https://github.com/Krish-Panchani' }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     telephone: false,
   },
   openGraph: {
-    title: 'TechFest 2024 at AIT',
+    title: 'TECHNOSPARX at AIT',
     description: 'Join us for an exciting techfest at Ahmedabad Institute of Technology! Explore a wide range of technical and non-technical events, including workshops, hackathons, guest lectures, and much more. Don\'t miss this opportunity to showcase your skills, learn from industry experts, and connect with like-minded individuals. Register now and be a part of the ultimate tech extravaganza!',
     url: 'https://aitfest.thunderdevelops.in',
     siteName: 'AIT TechFest 2024',

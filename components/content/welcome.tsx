@@ -12,7 +12,7 @@ export default function Welcome() {
                 <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
                     <div>
                         <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
-                            Welcome to <mark className="bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">TechFest</mark> 2024
+                            Welcome to <mark className="bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">TECHNOSPARX</mark> 2024
                         </h1>
                         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                             Join us for a week of innovation, learning, and fun! Participate in various tech events, workshops,
