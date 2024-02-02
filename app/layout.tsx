@@ -8,9 +8,9 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "TECHNOSPARX | Ahmedabad Institute of Technology",
+  title: "TECHNOSPARX | AIT TechFest 2024",
   description: "Join us for an exciting techfest at Ahmedabad Institute of Technology! Explore a wide range of technical and non-technical events, including workshops, hackathons, guest lectures, and much more. Don't miss this opportunity to showcase your skills, learn from industry experts, and connect with like-minded individuals. Register now and be a part of the ultimate tech extravaganza!",
-  keywords: ['AIT', 'TECHFEST 2024', 'Ahmedabad'],
+  keywords: ['AIT', 'TECHFEST 2024', 'TECHNOSPARX', 'Ahmedabad'],
   authors: [{ name: 'Krish Panchani', url: 'https://github.com/Krish-Panchani' }],
   creator: 'Krish Panchani',
   publisher: 'Krish Panchani',
@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     telephone: false,
   },
   openGraph: {
-    title: 'TECHNOSPARX at AIT',
+    title: 'TECHNOSPARX | AIT TechFest 2024',
     description: 'Join us for an exciting techfest at Ahmedabad Institute of Technology! Explore a wide range of technical and non-technical events, including workshops, hackathons, guest lectures, and much more. Don\'t miss this opportunity to showcase your skills, learn from industry experts, and connect with like-minded individuals. Register now and be a part of the ultimate tech extravaganza!',
     url: 'https://aitfest.thunderdevelops.in',
-    siteName: 'AIT TechFest 2024',
+    siteName: 'TECHNOSPARX | AIT TechFest 2024',
     images: [
       {
         url: 'https://aitfest.thunderdevelops.in/apple-touch-icon.png',
