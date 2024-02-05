@@ -39,7 +39,7 @@ export default function Header() {
         /> */}
         <NavbarBrand>
           <Logo />
-          <p className="font-bold text-inherit px-2">TECHNOSPARX</p>
+          <p className="font-bold text-inherit px-1">TECHNOSPARX</p>
         </NavbarBrand>
       </NavbarContent>
 
@@ -91,7 +91,7 @@ export default function Header() {
           <Drawer>
             <DrawerTrigger asChild>
               {/* <Button variant="orange">Details</Button> */}
-              <Button variant="primary">Register</Button>
+              <Button variant="primary" size={"sm"}>Register</Button>
             </DrawerTrigger>
             <DrawerContent>
               <div className="mx-auto w-full max-w-sm">
