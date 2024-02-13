@@ -12,7 +12,7 @@ export const eventData = [
         coordinators: [
           { name: "Krishna B", contact: "8780751157" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 2,
@@ -27,7 +27,7 @@ export const eventData = [
           { name: "Raghav", contact: "9106546270" },
           { name: "Tapan", contact: "7283839765" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/TECH_SHASTRARTH.svg",
       },
       {
         id: 3,
@@ -41,7 +41,7 @@ export const eventData = [
         coordinators: [
           { name: "Vaishnavi", contact: "6355384251" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/TECH_SHOWDOWN.svg",
       },
       {
         id: 4,
@@ -56,7 +56,7 @@ export const eventData = [
           { name: "Prashant", contact: "-" },
     
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/LIGHTNING_RELAY-ERS.svg",
       },
       {
         id: 5,
@@ -70,7 +70,7 @@ export const eventData = [
         coordinators: [
           { name: "Aryan Hotchandani", contact: "9106464264" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/CODECRISIS.svg",
       },
       {
         id: 6,
@@ -84,7 +84,7 @@ export const eventData = [
         coordinators: [
           { name: "Raj", contact: "9100000000" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 7,
@@ -98,7 +98,7 @@ export const eventData = [
         coordinators: [
           { name: "Krish Panchani", contact: "8866799347" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       }, 
       {
         id: 8,
@@ -112,7 +112,7 @@ export const eventData = [
         coordinators: [
           { name: "Manmohan", contact: "7232010574" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 9,
@@ -126,7 +126,7 @@ export const eventData = [
         coordinators: [
           { name: "Presha", contact: "8799027624" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 10,
@@ -140,7 +140,7 @@ export const eventData = [
         coordinators: [
           { name: "Prachi", contact: "6358031500" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 11,
@@ -155,7 +155,7 @@ export const eventData = [
           { name: "Meet Katarmal", contact: "9137674983" },
           { name: "Karan Bharda", contact: "7048458658" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 12,
@@ -169,7 +169,7 @@ export const eventData = [
         coordinators: [
           { name: "Sarthi Vyas", contact: "9100000000" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 13,
@@ -183,7 +183,7 @@ export const eventData = [
         coordinators: [
           { name: "Nikhil", contact: "9100000000" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 14,
@@ -197,7 +197,7 @@ export const eventData = [
         coordinators: [
           { name: "Vivek", contact: "0000000000" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 15,
@@ -211,7 +211,7 @@ export const eventData = [
         coordinators: [
           { name: "Rushil Patel", contact: "8160266095" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 16,
@@ -225,7 +225,7 @@ export const eventData = [
         coordinators: [
           { name: "-", contact: "0000000000" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 17,
@@ -239,7 +239,7 @@ export const eventData = [
         coordinators: [
           { name: "-", contact: "0000000000" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 18,
@@ -253,7 +253,7 @@ export const eventData = [
         coordinators: [
           { name: "-", contact: "0000000000" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 19,
@@ -267,7 +267,7 @@ export const eventData = [
         coordinators: [
           { name: "Krish Panchani", contact: "8866799347" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 20,
@@ -281,7 +281,7 @@ export const eventData = [
         coordinators: [
           { name: "Meet Katarmal", contact: "9137674983" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 21,
@@ -300,7 +300,7 @@ export const eventData = [
           { name: "Sahil", contact: "0000000000" },
           { name: "Dwip", contact: "0000000000" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 22,
@@ -314,7 +314,7 @@ export const eventData = [
         coordinators: [
           { name: "Hetarth Panchal", contact: "9328563827" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 23,
@@ -328,7 +328,7 @@ export const eventData = [
         coordinators: [
           { name: "Vasant", contact: "9316662350" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 24,
@@ -342,7 +342,7 @@ export const eventData = [
         coordinators: [
           { name: "Sneh", contact: "9537064083" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 25,
@@ -356,7 +356,7 @@ export const eventData = [
         coordinators: [
           { name: "manmohan", contact: "7232010574" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: " posters/web_jaal.svg",
       },
       {
         id: 26,
@@ -370,7 +370,7 @@ export const eventData = [
         coordinators: [
           { name: "Vaishanvi", contact: "6355384251" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/Ascend-It.svg",
       },
       {
         id: 27,
@@ -384,7 +384,7 @@ export const eventData = [
         coordinators: [
           { name: "sahil sharma", contact: "9376059922" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 28,
@@ -398,7 +398,7 @@ export const eventData = [
         coordinators: [
           { name: "Jalshree Bhatt", contact: "9428299588" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 29,
@@ -413,7 +413,7 @@ export const eventData = [
           { name: "Drashti", contact: "0000000000" },
           { name: "Ananya", contact: "9408574571" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 30,
@@ -427,7 +427,7 @@ export const eventData = [
         coordinators: [
           { name: "-", contact: "0000000000" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 31,
@@ -441,7 +441,7 @@ export const eventData = [
         coordinators: [
           { name: "-", contact: "0000000000" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 32,
@@ -455,7 +455,7 @@ export const eventData = [
         coordinators: [
           { name: "Aryan", contact: "0000000000" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 33,
@@ -469,7 +469,7 @@ export const eventData = [
         coordinators: [
           { name: "Aryan", contact: "0000000000" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 34,
@@ -483,7 +483,7 @@ export const eventData = [
         coordinators: [
           { name: "-", contact: "0000000000" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
       {
         id: 35,
@@ -497,7 +497,7 @@ export const eventData = [
         coordinators: [
           { name: "-", contact: "0000000000" },
         ],
-        imageSrc: "/images/hero-card-complete.jpeg",
+        imageSrc: "posters/trailblazer.svg",
       },
 ];
 

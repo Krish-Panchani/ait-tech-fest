@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
+import { Card, CardHeader, CardBody, Image} from "@nextui-org/react";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Button } from "@/components/ui/button";
 
@@ -16,7 +16,11 @@ import {
 import { Separator } from "@/components/ui/separator";
 
 import { eventData } from './data';
-
+const imageLoader = () => {
+  return (
+    <Skeleton />
+  );
+}
 
 export default function Events() {
   return (
@@ -37,7 +41,14 @@ export default function Events() {
               <p className="text-tiny font-bold">{event.category}</p>
             </CardHeader>
             <CardBody className="py-2">
-              <Skeleton className="w-[270px] h-[100px] rounded-md" />
+              {/* <Skeleton className="w-[270px] h-[100px] rounded-md" /> */}
+              <Image 
+                width={350}
+                disableSkeleton={false}
+                className="rounded-lg drop-shadow-xl mx-auto" 
+                src={event.imageSrc} 
+                alt="" 
+              />
               <small className="text-default-500 line-clamp-1 mt-3">{event.description}</small>
               {/* <Image
                 alt="Card background"
