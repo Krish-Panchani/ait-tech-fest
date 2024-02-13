@@ -37,10 +37,12 @@ export default function Header() {
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         /> */}
+          <Link href="/">
         <NavbarBrand>
           <Logo />
-          <p className="font-bold text-inherit px-1">TECHNOSPARX</p>
+          <h1 className="text-sm sm:text-xl font-extrabold px-1 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">TECHNOSPARX</h1>
         </NavbarBrand>
+          </Link>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
@@ -61,7 +63,7 @@ export default function Header() {
         <Drawer>
             <DrawerTrigger asChild>
               {/* <Button variant="orange">Details</Button> */}
-              <Link href={"#"}>Contact</Link>
+              <Link href={"#"} className="text-sm sm:text-base font-bold">Contact</Link>
             </DrawerTrigger>
             <DrawerContent>
               <div className="mx-auto w-full max-w-sm">
