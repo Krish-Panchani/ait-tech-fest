@@ -13,32 +13,10 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer"
+import { Separator } from "@/components/ui/separator";
 
-const eventData = [
-  {
-    id: 1,
-    category: "Technical",
-    date: "Date Soon",
-    title: "Reveal Soon",
-    imageSrc: "/images/hero-card-complete.jpeg",
-  },
-  {
-    id: 2,
-    category: "Non-Technical",
-    date: "Date Soon",
-    title: "Reveal Soon",
-    imageSrc: "/images/react-workshop.jpeg",
-  },
-  {
-    id: 3,
-    category: "Speaker",
-    date: "Date Soon",
-    title: "Reveal Soon",
-    imageSrc: "/images/networking-event.jpeg",
-  },
+import { eventData } from './data';
 
-  // Add more event data objects here
-];
 
 export default function Events() {
   return (
@@ -49,38 +27,53 @@ export default function Events() {
           Variety of events catering to different interests and industries. From technical workshops to networking events, there is something for everyone. Stay updated with the latest event details and join us for an enriching experience.
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 justify-center mx-auto my-4 py-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center mx-auto my-4 py-8 px-8">
 
         {eventData.map((event) => (
-          <Card key={event.id} className="py-4 mx-auto border border-cyan-400 rounded-xl">
+          <Card key={event.id} className="py-4 mx-auto border border-cyan-400 rounded-xl w-full">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-              <p className="text-tiny font-bold">{event.category}</p>
+              <h4 className="font-extrabold uppercase text-xl bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">{event.title}</h4>
               <small className="text-default-500">{event.date}</small>
-              <h4 className="font-bold uppercase text-large">{event.title}</h4>
+              <p className="text-tiny font-bold">{event.category}</p>
             </CardHeader>
             <CardBody className="py-2">
               <Skeleton className="w-[270px] h-[100px] rounded-md" />
+              <small className="text-default-500 line-clamp-1 mt-3">{event.description}</small>
               {/* <Image
-              alt="Card background"
-              className="object-cover rounded-xl"
-              src={event.imageSrc}
-              width={270}
-            /> */}
+                alt="Card background"
+                className="object-cover rounded-xl"
+                src={event.imageSrc}
+                width={270}
+              /> */}
               <div className="mt-4">
                 <Drawer>
                   <DrawerTrigger asChild>
                     <Button variant="orange">Details</Button>
                   </DrawerTrigger>
                   <DrawerContent>
-                    <div className="mx-auto w-full max-w-sm">
+                    <div className="mx-auto w-full max-w-lg">
                       <DrawerHeader>
-                        <DrawerTitle>Get Updated Soon</DrawerTitle>
-                        <DrawerDescription>Event Description</DrawerDescription>
-                        <DrawerDescription>All details updated Soon once we get confirmation.</DrawerDescription>
+                        <DrawerTitle className="font-extrabold text-xl bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">{event.title}</DrawerTitle>
+                        <Separator></Separator>
+                        <DrawerDescription>{event.description}</DrawerDescription>
+                        <div className="text-left">
+                          <DrawerDescription>Rounds: {event.rounds}</DrawerDescription>
+                          <DrawerDescription>Team/Individual: {event.team}</DrawerDescription>
+                          <DrawerDescription>Price: ₹{event.price}/-</DrawerDescription>
+                        </div>
+                        <Separator className="my-2"></Separator>
+
+                        <DrawerTitle className="text-base">Co-Ordinators</DrawerTitle>
+                        {event.coordinators && event.coordinators.map((coordinator) => (
+                          <DrawerDescription key={coordinator.name}>
+                            {coordinator.name}: {coordinator.contact}
+                          </DrawerDescription>
+                        ))}
                       </DrawerHeader>
 
                       <DrawerFooter>
                         {/* <Button>Submit</Button> */}
+                        <Button variant="primary" size={"sm"}>Register</Button>
                         <DrawerClose asChild>
                           <Button variant="outline">Cancel</Button>
                         </DrawerClose>
