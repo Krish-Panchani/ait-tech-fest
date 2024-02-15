@@ -1,9 +1,14 @@
 "use client"
+
+import Link from "next/link";
+import { Button } from "../ui/button";
+
 export default function Schedule() {
 
     const scheduleData = [
-        { day: 'Day 1 - Events Soon', time: 'Time Date' },
-        { day: 'Day 2 - Events Soon', time: 'Time Date' },
+        { day: 'Pre-Fest WORKSHOP', time: '28 Feb - 29 Feb' },
+        { day: 'Day 1 - Events', time: '1 March' },
+        { day: 'Day 2 - Events', time: '2 March' },
         // { day: 'Day 1 - Workshops', time: '10:00 AM - 5:00 PM' },
     ];
 
@@ -27,6 +32,11 @@ export default function Schedule() {
                         </div>
                     ))}
                 </div>
+                    <div className="flex justify-center mx-auto">
+                        <Link href="events">
+                    <Button variant="orange" >See All Events</Button>
+                    </Link>
+                    </div>
             </div>
         </section>
     );

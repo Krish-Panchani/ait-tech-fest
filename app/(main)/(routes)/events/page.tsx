@@ -37,8 +37,8 @@ export default function Events() {
           <Card key={event.id} className="py-4 mx-auto border border-cyan-400 rounded-xl w-full">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <h4 className="font-extrabold uppercase text-xl bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">{event.title}</h4>
-              <small className="text-default-500">{event.date}</small>
-              <p className="text-tiny font-bold">{event.category}</p>
+              <small className="text-default-500">{event.category}</small>
+              <p className="text-tiny font-bold">{event.date}</p>
             </CardHeader>
             <CardBody className="py-2">
               {/* <Skeleton className="w-[270px] h-[100px] rounded-md" /> */}

@@ -2,7 +2,7 @@
 import React from "react";
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Image, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
 import { Logo } from "@/app/assets/Logo";
 import { Button } from "./ui/button";
 import {
@@ -39,8 +39,17 @@ export default function Header() {
         /> */}
           <Link href="/">
         <NavbarBrand>
+          <div className="flex items-center">
           <Logo />
-          <h1 className="text-sm sm:text-xl font-extrabold px-1 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">TECHNOSPARX</h1>
+          {/* <h1 className="text-sm sm:text-xl font-extrabold px-1 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">TECHNOSPARX</h1> */}
+          <Image 
+                width={170}
+                disableSkeleton={false}
+                className="drop-shadow-xl pl-2" 
+                src={"TECHNO_final.svg"} 
+                alt="" 
+              />
+              </div>
         </NavbarBrand>
           </Link>
       </NavbarContent>
