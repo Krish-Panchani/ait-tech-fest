@@ -80,11 +80,14 @@ export default function Header() {
                   <DrawerTitle>Contact At</DrawerTitle>
                   <Separator className="my-2" />
                   <DrawerTitle>Faculty Co-ordinators</DrawerTitle>
-                  <DrawerDescription>Name: </DrawerDescription>
-                  <DrawerDescription>No.:</DrawerDescription>
+                  <DrawerDescription>Prof. Namrata Gohel: <Link href={"tel:+91 8866869131"}> +91 8866869131 </Link></DrawerDescription>
+                  <DrawerDescription>Prof. Prachi Patel: <Link href={"tel:+91 8401861255"}> +91 8401861255 </Link></DrawerDescription>
                   <DrawerTitle>Students Co-ordinators</DrawerTitle>
-                  <DrawerDescription>Name: </DrawerDescription>
-                  <DrawerDescription>No.:</DrawerDescription>
+                  <DrawerDescription>Hetarth: <Link href={"tel:+91 9328563827"}> +91 9328563827 </Link></DrawerDescription>
+                  <DrawerDescription>Rachit: <Link href={"tel:+91 9723395968"}> +91 9723395968 </Link></DrawerDescription>
+                  <DrawerDescription>Pravin: <Link href={"tel:+91 9327622985"}> +91 9327622985 </Link></DrawerDescription>
+                  <DrawerDescription>Parth: <Link href={"tel:+91 9104454198"}> +91 9104454198 </Link></DrawerDescription>
+
                 </DrawerHeader>
 
                 <DrawerFooter>
@@ -108,12 +111,21 @@ export default function Header() {
               <div className="mx-auto w-full max-w-sm">
                 <DrawerHeader>
                   <DrawerTitle>Registration</DrawerTitle>
-                  <DrawerDescription>Details</DrawerDescription>
-                  <DrawerDescription>Registration Form will be release soon, Stay Tuned</DrawerDescription>
+                  <Separator className="my-2"></Separator>
+                  <DrawerDescription>Note:</DrawerDescription>
+                  <DrawerDescription>You have to do fees payment after just filling up this Registration Form.</DrawerDescription>
+                  <DrawerDescription>Contact below mentioned Co-ordinators for Fees Payment.</DrawerDescription>
+                  <Separator className="my-2"></Separator>
+                  <DrawerTitle>Contact for Fees Payment</DrawerTitle>
+                  <DrawerDescription>Vaishnavi: <Link href={"tel:+91 6355384251"}> +91 6355384251 </Link></DrawerDescription>
+                  <DrawerDescription>Manmohan: <Link href={"tel:+91 7232010574"}> +91 7232010574 </Link></DrawerDescription>
                 </DrawerHeader>
 
                 <DrawerFooter>
                   {/* <Button>Submit</Button> */}
+                  <Link href={"https://docs.google.com/forms/d/e/1FAIpQLScU-srnMxDG2wwlC1Ncq-q7iSCoxpNay7Qcl0nL1JW8fRSasw/viewform"} target="_blank">
+                  <Button variant="primary" size={"sm"}>Register Now</Button>
+                  </Link>
                   <DrawerClose asChild>
                     <Button variant="outline">Cancel</Button>
                   </DrawerClose>

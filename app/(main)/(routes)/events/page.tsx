@@ -16,6 +16,7 @@ import {
 import { Separator } from "@/components/ui/separator";
 
 import { eventData } from './data';
+import Link from "next/link";
 const imageLoader = () => {
   return (
     <Skeleton />
@@ -37,7 +38,7 @@ export default function Events() {
           <Card key={event.id} className="py-4 mx-auto border border-cyan-400 rounded-xl w-full">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <h4 className="font-extrabold uppercase text-xl bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">{event.title}</h4>
-              <small className="text-default-500">{event.category}</small>
+              <small className="text-default-500">{event.category} - {event.team}</small>
               <p className="text-tiny font-bold">{event.date}</p>
             </CardHeader>
             <CardBody className="py-2">
@@ -77,7 +78,7 @@ export default function Events() {
                         <DrawerTitle className="text-base">Co-Ordinators</DrawerTitle>
                         {event.coordinators && event.coordinators.map((coordinator) => (
                           <DrawerDescription key={coordinator.name}>
-                            {coordinator.name}: {coordinator.contact}
+                            {coordinator.name}: <Link href={"tel:+91 " + coordinator.contact}> +91 {coordinator.contact} </Link>
                           </DrawerDescription>
                         ))}
                       </DrawerHeader>
