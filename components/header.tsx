@@ -25,7 +25,7 @@ export default function Header() {
     { label: "Home", path: "/", isActive: pathname === "/" },
     { label: "Events", path: "/events", isActive: pathname === "/events" },
     { label: "Schedule", path: "/#schedule", isActive: pathname === "/#schedule" },
-    { label: "Venue", path: "/#venue", isActive: pathname === "/#venue" },
+    // { label: "Venue", path: "/#venue", isActive: pathname === "/#venue" },
     // { label: "Contact", path: "/#Venue", isActive: pathname === "/#Venue" }
   ];
 
