@@ -24,8 +24,8 @@ export default function Welcome() {
                         <Image
                             width={500}
                             disableSkeleton={false}
-                            className="rounded-lg drop-shadow-xl mx-auto"
-                            src={"Main_Page.svg"}
+                            className="rounded-lg drop-shadow-xl mx-auto aspect-[2/1] overflow-hidden rounded-t-xl object-cover"
+                            src={"poster_final.png"}
                             alt=""
                         />
                         {/* <Skeleton className="w-64 h-32 rounded-md mx-auto aspect-[2/1]" /> */}

@@ -6,9 +6,9 @@ import { Button } from "../ui/button";
 export default function Schedule() {
 
     const scheduleData = [
-        { day: 'Pre-Fest WORKSHOP', time: '28 Feb - 29 Feb' },
-        { day: 'Day 1 - Events', time: '1 March' },
-        { day: 'Day 2 - Events', time: '2 March' },
+        { day: 'Pre-Fest WORKSHOP', time: '28 Feb, 2024 - 29 Feb, 2024' },
+        { day: 'Day 1 - Events', time: '1 March, 2024' },
+        { day: 'Day 2 - Events', time: '2 March, 2024' },
         // { day: 'Day 1 - Workshops', time: '10:00 AM - 5:00 PM' },
     ];
 
@@ -35,6 +35,10 @@ export default function Schedule() {
                     <div className="flex justify-center mx-auto">
                         <Link href="events">
                     <Button variant="orange" >See All Events</Button>
+                    </Link>
+                        <Link className="ml-3" href="https://drive.google.com/file/d/1YZg1Fy91tKcOIUUkH95j3DAe5m_FITUg/view?usp=sharing"
+                        target="_blank">
+                    <Button variant="orange" >Tentative Schedule</Button>
                     </Link>
                     </div>
             </div>
