@@ -22,9 +22,9 @@ export default function Welcome() {
                     </div>
                     <div className="flex flex-col items-start space-y-4">
                         <Image
-                            width={500}
+                            // width={700}
                             disableSkeleton={false}
-                            className="rounded-lg drop-shadow-xl mx-auto aspect-[2/1] overflow-hidden rounded-t-xl object-cover"
+                            className="rounded-lg drop-shadow-xl mx-auto w-full  overflow-hidden rounded-t-xl object-cover"
                             src={"poster_final.png"}
                             alt=""
                         />

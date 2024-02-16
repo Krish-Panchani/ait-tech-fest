@@ -267,7 +267,7 @@ export const eventData = [
         coordinators: [
           { name: "Krish Panchani", contact: "8866799347" },
         ],
-        imageSrc: "posters/Image-Gen.svg",
+        imageSrc: "poster/Image_Gen.png",
       },
       {
         id: 20,
@@ -300,7 +300,7 @@ export const eventData = [
           { name: "Sahil (NSF)", contact: "9376059922" },
           { name: "Dwip (NSF)", contact: "9429108956" },
         ],
-        imageSrc: "posters/e-yuddhbhoomi.svg",
+        imageSrc: "poster/e-yuddha.jpeg",
       },
       {
         id: 22,
@@ -314,7 +314,7 @@ export const eventData = [
         coordinators: [
           { name: "Hetarth Panchal", contact: "9328563827" },
         ],
-        imageSrc: "posters/sur_nirvana.svg",
+        imageSrc: "poster/sur_nirvana.jpeg",
       },
       {
         id: 23,
@@ -328,7 +328,7 @@ export const eventData = [
         coordinators: [
           { name: "Vasant", contact: "9316662350" },
         ],
-        imageSrc: "posters/chakravyuh.svg",
+        imageSrc: "poster/Chakrabyuh_.png",
       },
       {
         id: 24,
@@ -342,7 +342,7 @@ export const eventData = [
         coordinators: [
           { name: "Sneh", contact: "9537064083" },
         ],
-        imageSrc: "posters/frame_fusion.svg",
+        imageSrc: "poster/Frame_Fusion.jpg",
       },
       {
         id: 25,
@@ -356,7 +356,7 @@ export const eventData = [
         coordinators: [
           { name: "manmohan", contact: "7232010574" },
         ],
-        imageSrc: "posters/web_jaal.svg",
+        imageSrc: "poster/web_jaal.jpeg",
       },
       {
         id: 26,
@@ -370,7 +370,7 @@ export const eventData = [
         coordinators: [
           { name: "Vaishanvi", contact: "6355384251" },
         ],
-        imageSrc: "posters/Ascend-It.svg",
+        imageSrc: "poster/Non_Tech_Sorting.jpeg",
       },
       {
         id: 27,
@@ -384,7 +384,7 @@ export const eventData = [
         coordinators: [
           { name: "sahil sharma", contact: "9376059922" },
         ],
-        imageSrc: "posters/TURBO_TYPING.svg",
+        imageSrc: "poster/Turbo_Typing.jpg",
       },
       {
         id: 28,
@@ -398,7 +398,7 @@ export const eventData = [
         coordinators: [
           { name: "Jalshree Bhatt", contact: "9428299588" },
         ],
-        imageSrc: "posters/VISHWA_PARISHAD.svg",
+        imageSrc: "poster/vishwa_parishad.jpeg",
       },
       {
         id: 29,
@@ -455,7 +455,7 @@ export const eventData = [
         coordinators: [
           { name: "Aryan", contact: "0000000000" },
         ],
-        imageSrc: "posters/MINI_SHARK_TANK.svg",
+        imageSrc: "poster/mini_sark.jpeg",
       },
       {
         id: 33,
@@ -483,7 +483,7 @@ export const eventData = [
         coordinators: [
           { name: "-", contact: "0000000000" },
         ],
-        imageSrc: "posters/trailblazer.svg",
+        imageSrc: "poster/Laser_Tag.jpeg",
       },
       {
         id: 35,
@@ -497,7 +497,7 @@ export const eventData = [
         coordinators: [
           { name: "-", contact: "0000000000" },
         ],
-        imageSrc: "posters/trailblazer.svg",
+        imageSrc: "poster/Non_Tech_Sorting.jpeg",
       },
 ];
 

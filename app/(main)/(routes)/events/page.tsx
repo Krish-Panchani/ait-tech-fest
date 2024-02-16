@@ -46,7 +46,7 @@ export default function Events() {
               <Image 
                 width={350}
                 disableSkeleton={false}
-                className="rounded-lg drop-shadow-xl mx-auto" 
+                className="rounded-lg drop-shadow-xl mx-auto object-cover aspect-[2/1]" 
                 src={event.imageSrc} 
                 alt="" 
               />
