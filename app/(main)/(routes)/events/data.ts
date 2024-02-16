@@ -98,7 +98,7 @@ export const eventData = [
         coordinators: [
           { name: "Krish Panchani", contact: "8866799347" },
         ],
-        imageSrc: "poster/7.png",
+        imageSrc: "poster/8.png",
       }, 
       {
         id: 8,
@@ -112,7 +112,7 @@ export const eventData = [
         coordinators: [
           { name: "Manmohan", contact: "7232010574" },
         ],
-        imageSrc: "poster/8.png",
+        imageSrc: "poster/9.png",
       },
       {
         id: 9,
@@ -126,7 +126,7 @@ export const eventData = [
         coordinators: [
           { name: "Presha", contact: "8799027624" },
         ],
-        imageSrc: "poster/9.png",
+        imageSrc: "poster/10.png",
       },
       {
         id: 10,
@@ -140,7 +140,7 @@ export const eventData = [
         coordinators: [
           { name: "Prachi", contact: "6358031500" },
         ],
-        imageSrc: "poster/10.png",
+        imageSrc: "poster/11-1.png",
       },
       {
         id: 11,
@@ -155,7 +155,7 @@ export const eventData = [
           { name: "Meet Katarmal", contact: "9137674983" },
           { name: "Karan Bharda", contact: "7048458658" },
         ],
-        imageSrc: "poster/11-1.png",
+        imageSrc: "poster/7.png",
       },
       {
         id: 12,
