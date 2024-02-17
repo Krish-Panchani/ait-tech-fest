@@ -123,12 +123,12 @@ export default function Header() {
 
                 <DrawerFooter>
                   {/* <Button>Submit</Button> */}
-                  <Link 
+                  {/* <Link 
                   href={"https://docs.google.com/forms/d/e/1FAIpQLScU-srnMxDG2wwlC1Ncq-q7iSCoxpNay7Qcl0nL1JW8fRSasw/viewform"} 
                   target="_blank"
                   className="mx-auto">
                   <Button variant="primary" size={"sm"}>Register Now</Button>
-                  </Link>
+                  </Link> */}
                   <DrawerClose asChild>
                     <Button variant="outline">Cancel</Button>
                   </DrawerClose>
