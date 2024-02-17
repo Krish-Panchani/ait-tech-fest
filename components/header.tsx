@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from 'react'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Image, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
@@ -16,11 +16,16 @@ import {
   DrawerTrigger,
 } from "@/components/ui/drawer"
 import { Separator } from "./ui/separator";
+import { Skeleton } from './ui/skeleton';
 
 export default function Header() {
   const pathname = usePathname()
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
+  const handleImageLoad = () => {
+      setImageLoaded(true);
+  }
   const menuItems = [
     { label: "Home", path: "/", isActive: pathname === "/" },
     { label: "Events", path: "/events", isActive: pathname === "/events" },
@@ -42,12 +47,14 @@ export default function Header() {
           <div className="flex items-center">
           {/* <Logo /> */}
           {/* <h1 className="text-sm sm:text-xl font-extrabold px-1 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">TECHNOSPARX</h1> */}
+        {!imageLoaded && <Skeleton className="w-40 h-10 rounded-md mx-auto aspect-[2/1]" />}
           <Image 
                 width={170}
                 disableSkeleton={false}
                 className="drop-shadow-xl pl-2" 
                 src={"TECHNO_final.svg"} 
                 alt="" 
+                onLoad={handleImageLoad}
               />
               </div>
         </NavbarBrand>
