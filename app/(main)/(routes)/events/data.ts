@@ -9,6 +9,7 @@ export const eventData = [
         rounds: "2",
         team: "Solo",
         price: "50",
+        
         coordinators: [
           { name: "Krishna Badgujar", contact: "8780751157" },
         ],
@@ -63,7 +64,7 @@ export const eventData = [
         team: "5 Members",
         price: "100",
         coordinators: [
-          { name: "Prashant", contact: "-" },
+          { name: "Prashant Siddhpura", contact: "9714184040" },
         ],Faculty_coordinators: [
           { name: "Prof.Ankita Shah  ", Email: "ankita.shah@aitindia.in" },
         ],
@@ -485,7 +486,7 @@ export const eventData = [
         team: "Solo/ Team",
         price: "20 per person",
         coordinators: [
-          { name: "Drashti ", contact: "6354187793" },
+          { name: "Drashti Solanki", contact: "6354187793" },
           { name: "Ananya Shah", contact: "9408574571" },
         ],
         Faculty_coordinators: [
