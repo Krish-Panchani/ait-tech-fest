@@ -82,7 +82,7 @@ export default function Header() {
               <Link href={"#"} className="text-sm sm:text-base font-bold">Contact</Link>
             </DrawerTrigger>
             <DrawerContent>
-              <div className="mx-auto w-full max-w-sm">
+              <div className="mx-auto w-full max-w-sm text-left">
                 <DrawerHeader>
                   <DrawerTitle>Contact At</DrawerTitle>
                   <Separator className="my-2" />
@@ -115,7 +115,7 @@ export default function Header() {
               <Button variant="primary" size={"sm"}>Register</Button>
             </DrawerTrigger>
             <DrawerContent>
-              <div className="mx-auto w-full max-w-sm">
+              <div className="mx-auto w-full max-w-sm text-left">
                 <DrawerHeader>
                   <DrawerTitle>Registration</DrawerTitle>
                   <Separator className="my-2"></Separator>
