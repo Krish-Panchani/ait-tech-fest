@@ -74,23 +74,29 @@ export default function Events() {
                           <DrawerDescription>Team/Individual: {event.team}</DrawerDescription>
                           <DrawerDescription>Price: ₹{event.price}/-</DrawerDescription>
                           
+                          <Link href={event.link} target="_blank">
                           <div className="pt-3 flex items-center">
                           <FaBook className="text-amber-500 " />
-                          
                           <DrawerDescription className="px-2 font-bold uppercase bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">Rules & Regulations</DrawerDescription>
                           </div>
+                          </Link>
                         </div>
                         <Separator className="my-2"></Separator>
 
-                        <DrawerTitle className="text-base">Faculty Co-Ordinators</DrawerTitle>
-                        
-                        <DrawerTitle className="text-base">Student Co-Ordinators</DrawerTitle>
-                        {event.coordinators && event.coordinators.map((coordinator) => (
-                          <DrawerDescription key={coordinator.name}>
-                            {coordinator.name}: <Link href={"tel:+91 " + coordinator.contact}> +91 {coordinator.contact} </Link>
-                          </DrawerDescription>
-                        ))}
-                      </DrawerHeader>
+                          <DrawerTitle className="text-base">Faculty Co-Ordinators</DrawerTitle>
+                          {event.facultyCoordinators && event.facultyCoordinators.map((coordinator) => (
+                            <DrawerDescription key={coordinator.name}>
+                              {coordinator.name}: <Link href={"mailto:" + coordinator.email}>{coordinator.email}</Link>
+                            </DrawerDescription>
+                          ))}
+                          
+                          <DrawerTitle className="text-base">Student Co-Ordinators</DrawerTitle>
+                          {event.coordinators && event.coordinators.map((coordinator) => (
+                            <DrawerDescription key={coordinator.name}>
+                              {coordinator.name}: <Link href={"tel:+91 " + coordinator.contact}>+91 {coordinator.contact}</Link>
+                            </DrawerDescription>
+                          ))}
+                        </DrawerHeader>
 
                       <DrawerFooter>
                         {/* <Button>Submit</Button> */}

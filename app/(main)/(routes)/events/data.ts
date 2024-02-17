@@ -13,10 +13,11 @@ export const eventData = [
         coordinators: [
           { name: "Krishna Badgujar", contact: "8780751157" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof.Vanita Dandhwani ", Email: "vanita.dandhwani@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof.Vanita Dandhwani ", email: "vanita.dandhwani@aitindia.in" },
         ],
         imageSrc: "poster/Trailblazer_.jpg",
+        link: "",
       },
       {
         id: 2,
@@ -31,10 +32,11 @@ export const eventData = [
           { name: "Raghav Vaishnav", contact: "9106546270" },
           { name: "Tapan Patel", contact: "7283839765" },
         ],
-        Faculty_coordinators: [
-          { name: "Dr.Harsha Padheriya ", Email: "harsha.padheriya@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Dr.Harsha Padheriya ", email: "harsha.padheriya@aitindia.in" },
         ],
         imageSrc: "poster/2.png",
+        link: "",
         
       },
       {
@@ -49,10 +51,11 @@ export const eventData = [
         coordinators: [
           { name: "Vaishnavi Chawla", contact: "6355384251" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof. Divya pathak ", Email: "divya.pathaka@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof. Divya pathak ", email: "divya.pathaka@aitindia.in" },
         ],
         imageSrc: "poster/techshowdown.jpg",
+        link: "",
       },
       {
         id: 4,
@@ -65,10 +68,11 @@ export const eventData = [
         price: "100",
         coordinators: [
           { name: "Prashant Siddhpura", contact: "9714184040" },
-        ],Faculty_coordinators: [
-          { name: "Prof.Ankita Shah  ", Email: "ankita.shah@aitindia.in" },
+        ],facultyCoordinators: [
+          { name: "Prof.Ankita Shah  ", email: "ankita.shah@aitindia.in" },
         ],
         imageSrc: "poster/lightningrelay-ers.jpg",
+        link: "",
       },
       {
         id: 5,
@@ -81,10 +85,11 @@ export const eventData = [
         price: "30",
         coordinators: [
           { name: "Aryan Hotchandani", contact: "9106464264" },
-        ],Faculty_coordinators: [
-          { name: "Prof. Darshana Patel ", Email: "darshana.patel@aitindia.in" },
+        ],facultyCoordinators: [
+          { name: "Prof. Darshana Patel ", email: "darshana.patel@aitindia.in" },
         ],
         imageSrc: "poster/codecrisis.jpg",
+        link: "",
       },
       {
         id: 6,
@@ -98,10 +103,11 @@ export const eventData = [
         coordinators: [
           { name: "Raj Rathod", contact: "9316027675"  },
         ],
-        Faculty_coordinators: [
-          { name: "Prof. Preksha patel ", Email: "preksha.patel@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof. Preksha patel ", email: "preksha.patel@aitindia.in" },
         ],
         imageSrc: "poster/unfinisheddojo.jpg",
+        link: "",
       },
       {
         id: 7,
@@ -114,10 +120,11 @@ export const eventData = [
         price: "50",
         coordinators: [
           { name: "Krish Panchani", contact: "8866799347" },
-        ],Faculty_coordinators: [
-          { name: "Prof. Archana Jethava ", Email: "archana.jethava@aitindia.in" },
+        ],facultyCoordinators: [
+          { name: "Prof. Archana Jethava ", email: "archana.jethava@aitindia.in" },
         ],
         imageSrc: "poster/webify.jpg",
+        link: "",
       }, 
       {
         id: 8,
@@ -130,10 +137,11 @@ export const eventData = [
         price: "30",
         coordinators: [
           { name: "Manmohan Maloo", contact: "7232010574" },
-        ],Faculty_coordinators: [
-          { name: "Prof.Mitisha Barot", Email: "mitisha.barot@aitindia.in" },
+        ],facultyCoordinators: [
+          { name: "Prof.Mitisha Barot", email: "mitisha.barot@aitindia.in" },
         ],
         imageSrc: "poster/blockly.jpg",
+        link: "",
       },
       {
         id: 9,
@@ -146,10 +154,11 @@ export const eventData = [
         price: "50",
         coordinators: [
           { name: "Presha Patel", contact: "8799027624" },
-        ],Faculty_coordinators: [
-          { name: "Prof.Margi Patel", Email: "margi.patel@aitindia.in" },
+        ],facultyCoordinators: [
+          { name: "Prof.Margi Patel", email: "margi.patel@aitindia.in" },
         ],
         imageSrc: "poster/pixelparty.jpg",
+        link: "",
       },
       {
         id: 10,
@@ -162,10 +171,11 @@ export const eventData = [
         price: "30",
         coordinators: [
           { name: "Prachi Anarkat", contact: "6358031500" },
-        ],Faculty_coordinators: [
-          { name: "Prof. Dhruvi Suthar ", Email: "dhruvi.suthar@aitindia.in" },
+        ],facultyCoordinators: [
+          { name: "Prof. Dhruvi Suthar ", email: "dhruvi.suthar@aitindia.in" },
         ],
         imageSrc: "poster/codin'thedark.jpg",
+        link: "",
       },
       {
         id: 11,
@@ -180,10 +190,11 @@ export const eventData = [
           { name: "Meet Katarmal", contact: "9137674983" },
           { name: "Karan Bharda", contact: "7048458658" },
         ],
-        Faculty_coordinators: [
-          { name: "Dr Leena Patel", Email: "leena.patel@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Dr Leena Patel", email: "leena.patel@aitindia.in" },
         ],
         imageSrc: "poster/shellseekers.jpg",
+        link: "",
       },
       {
         id: 12,
@@ -197,11 +208,12 @@ export const eventData = [
         coordinators: [
           { name: "Sarthi Vyas", contact: "9100000000" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof. Madhumita Joshi ", Email: "madhumita.joshi@aitindia.in" },
-          { name: "Prof. Navneet Yadav ", Email: "navneet.yadav@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof. Madhumita Joshi ", email: "madhumita.joshi@aitindia.in" },
+          { name: "Prof. Navneet Yadav ", email: "navneet.yadav@aitindia.in" },
         ],
         imageSrc: "posters/spur_of_the_moment.png",
+        link: "",
       },
       {
         id: 13,
@@ -214,11 +226,12 @@ export const eventData = [
         price: "50",
         coordinators: [
           { name: "Nikhil Prajapati", contact: "9173231725" },
-        ],Faculty_coordinators: [
-          { name: "Prof Ishan Bhavsar", Email: "ishan.bhavsar@aitindia.in" },
-          { name: "Prof. Sonal Kapadia", Email: "sonal.kapadia@aitindia.in" },
+        ],facultyCoordinators: [
+          { name: "Prof Ishan Bhavsar", email: "ishan.bhavsar@aitindia.in" },
+          { name: "Prof. Sonal Kapadia", email: "sonal.kapadia@aitindia.in" },
         ],
         imageSrc: "posters/mechanical_quizzard.png",
+        link: "",
       },
       {
         id: 14,
@@ -231,11 +244,12 @@ export const eventData = [
         price: "50",
         coordinators: [
           { name: "Vivek Agarwal", contact: "7490032427" },
-        ],Faculty_coordinators: [
-          { name: "Prof. Navneet Yadav", Email: "navneet.yadav@aitindia.in" },
-          { name: "Prof. Sonal Kapadia", Email: "sonal.kapadia@aitindia.in" },
+        ],facultyCoordinators: [
+          { name: "Prof. Navneet Yadav", email: "navneet.yadav@aitindia.in" },
+          { name: "Prof. Sonal Kapadia", email: "sonal.kapadia@aitindia.in" },
         ],
         imageSrc: "posters/cadathon.png",
+        link: "",
       },
       {
         id: 15,
@@ -248,11 +262,12 @@ export const eventData = [
         price: "80",
         coordinators: [
           { name: "Rushil Patel", contact: "8160266095" },
-        ],Faculty_coordinators: [
-          { name: "Dr. Pooja Joshi", Email: "pooja.joshi@aitindia.in" },
-          { name: "Mr. Ashwin Patel ", Email: "ashwin.patel @aitindia.in" },
+        ],facultyCoordinators: [
+          { name: "Dr. Pooja Joshi", email: "pooja.joshi@aitindia.in" },
+          { name: "Mr. Ashwin Patel ", email: "ashwin.patel @aitindia.in" },
         ],
         imageSrc: "posters/simtronics.png",
+        link: "",
       },
       {
         id: 16,
@@ -267,6 +282,7 @@ export const eventData = [
           { name: "Vipksha Parmar", contact: "7016011278" },
         ],
         imageSrc: "posters/mindset_melee.png",
+        link: "",
       },
       {
         id: 17,
@@ -280,10 +296,11 @@ export const eventData = [
         coordinators: [
           { name: "Rahul Parmar", contact: "6351487275" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof.Akash Rai", Email: "akash.rai@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof.Akash Rai", email: "akash.rai@aitindia.in" },
         ],
         imageSrc: "posters/money heist.png",
+        link: "",
       },
       {
         id: 18,
@@ -296,10 +313,11 @@ export const eventData = [
         price: "50",
         coordinators: [
           { name: "Nakul Parikh", contact: "8347900868" },
-        ],Faculty_coordinators: [
-          { name: "Prof Harshil Panchal", Email: "harshil.panchal@aitindia.in" },
+        ],facultyCoordinators: [
+          { name: "Prof Harshil Panchal", email: "harshil.panchal@aitindia.in" },
         ],
         imageSrc: "posters/shelby_surge.png",
+        link: "",
       },
       {
         id: 19,
@@ -313,10 +331,11 @@ export const eventData = [
         coordinators: [
           { name: "Krish Panchani", contact: "8866799347" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof Snehal Ambulkar ", Email: "snehal.ambulkar @aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof Snehal Ambulkar ", email: "snehal.ambulkar @aitindia.in" },
         ],
         imageSrc: "poster/Image_Gen.png",
+        link: "",
       },
       {
         id: 20,
@@ -329,10 +348,11 @@ export const eventData = [
         price: "30",
         coordinators: [
           { name: "Meet Katarmal", contact: "9137674983" },
-        ],Faculty_coordinators: [
-          { name: "Prof. Puja Chaturvedi", Email: "puja.chaturvedi@aitindia.in" },
+        ],facultyCoordinators: [
+          { name: "Prof. Puja Chaturvedi", email: "puja.chaturvedi@aitindia.in" },
         ],
         imageSrc: "posters/visualvista.jpg",
+        link: "",
       },
       {
         id: 21,
@@ -351,11 +371,12 @@ export const eventData = [
           { name: "Sahil Sharma(NSF)", contact: "9376059922" },
           { name: "Dwip Pandeya(NSF)", contact: "9429108956" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof. Dhaval Khatri", Email: "dhaval.khatri@aitindia.in" },
-          { name: "Prof.Bansari Thakkar", Email: "bansari.thakkar@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof. Dhaval Khatri", email: "dhaval.khatri@aitindia.in" },
+          { name: "Prof.Bansari Thakkar", email: "bansari.thakkar@aitindia.in" },
         ],
         imageSrc: "poster/e-yuddha.jpeg",
+        link: "",
       },
       {
         id: 22,
@@ -369,10 +390,11 @@ export const eventData = [
         coordinators: [
           { name: "Hetarth Panchal", contact: "9328563827" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof.Vanita Dandhwani", Email: "vanita.dandhwani@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof.Vanita Dandhwani", email: "vanita.dandhwani@aitindia.in" },
         ],
         imageSrc: "poster/sur_nirvana.jpeg",
+        link: "",
       },
       {
         id: 23,
@@ -386,10 +408,11 @@ export const eventData = [
         coordinators: [
           { name: "Vasant Konar", contact: "9316662350" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof.Apexa Bhavsar ", Email: "apexa.bhavsar@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof.Apexa Bhavsar ", email: "apexa.bhavsar@aitindia.in" },
         ],
         imageSrc: "poster/Chakrabyuh_.png",
+        link: "",
       },
       {
         id: 24,
@@ -399,14 +422,15 @@ export const eventData = [
         description: "Participants will be given a theme to capture and the best 3 will be selected/ Participants will be given a theme to capture and the best 3 will be selected",
         rounds: "1",
         team: "Solo/ 2 Members",
-        price: "30/60",
+        price: "60 solo, ₹100 Duo",
         coordinators: [
           { name: "Sneh Panchal", contact: "9537064083" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof.Harshida Chaudhary", Email: "harshida.chaudhary@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof.Harshida Chaudhary", email: "harshida.chaudhary@aitindia.in" },
         ],
         imageSrc: "poster/Frame_Fusion.jpg",
+        link: "",
       },
       {
         id: 25,
@@ -420,10 +444,11 @@ export const eventData = [
         coordinators: [
           { name: "Manmohan Maloo", contact: "7232010574" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof. Riddhi Raval", Email: "riddhi.raval@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof. Riddhi Raval", email: "riddhi.raval@aitindia.in" },
         ],
         imageSrc: "poster/web_jaal.jpeg",
+        link: "",
       },
       {
         id: 26,
@@ -437,10 +462,11 @@ export const eventData = [
         coordinators: [
           { name: "Vaishnavi Chawla", contact: "6355384251" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof. Preksha patel  ", Email: "preksha.patel@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof. Preksha patel  ", email: "preksha.patel@aitindia.in" },
         ],
         imageSrc: "poster/Non_Tech_Sorting.jpeg",
+        link: "",
       },
       {
         id: 27,
@@ -454,10 +480,11 @@ export const eventData = [
         coordinators: [
           { name: "Sahil sharma", contact: "9376059922" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof.Priyal Desai", Email: "priyal.desai@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof.Priyal Desai", email: "priyal.desai@aitindia.in" },
         ],
         imageSrc: "poster/Turbo_Typing.jpg",
+        link: "",
       },
       {
         id: 28,
@@ -471,10 +498,11 @@ export const eventData = [
         coordinators: [
           { name: "Jalshree Bhatt", contact: "9428299588" },
         ],
-        Faculty_coordinators: [
-          { name: "Dr.Jaimin Jani", Email: "jaimin.jani@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Dr.Jaimin Jani", email: "jaimin.jani@aitindia.in" },
         ],
         imageSrc: "poster/vishwa_parishad.jpeg",
+        link: "",
       },
       {
         id: 29,
@@ -489,11 +517,12 @@ export const eventData = [
           { name: "Drashti Solanki", contact: "6354187793" },
           { name: "Ananya Shah", contact: "9408574571" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof. Dhruvi Suthar", Email: "dhruvi.suthar@aitindia.in"},
-          { name: "Prof.vanita Dandhwani", Email: "vanita.dandhwani@aitindia.in"},
+        facultyCoordinators: [
+          { name: "Prof. Dhruvi Suthar", email: "dhruvi.suthar@aitindia.in"},
+          { name: "Prof.vanita Dandhwani", email: "vanita.dandhwani@aitindia.in"},
         ],
         imageSrc: "posters/spotlight showdown.png",
+        link: "",
       },
       {
         id: 30,
@@ -507,10 +536,11 @@ export const eventData = [
         coordinators: [
           { name: "Nikunj Rana", contact: " 7802875240" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof.Akash Rai ", Email: "akash.rai@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof.Akash Rai ", email: "akash.rai@aitindia.in" },
         ],
         imageSrc: "posters/strategic stacks.png",
+        link: "",
       },
       {
         id: 31,
@@ -524,10 +554,11 @@ export const eventData = [
         coordinators: [
           { name: "Nakul Parikh", contact: "834790086" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof Harshil Panchal", Email: "harshil.panchal@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof Harshil Panchal", email: "harshil.panchal@aitindia.in" },
         ],
         imageSrc: "posters/crazy add.png",
+        link: "",
       },
       {
         id: 32,
@@ -541,10 +572,11 @@ export const eventData = [
         coordinators: [
           { name: "Aryan Janjani ", contact: "884987685" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof.Supriya Singh", Email: "supriya.singh@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof.Supriya Singh", email: "supriya.singh@aitindia.in" },
         ],
         imageSrc: "poster/mini_sark.jpeg",
+        link: "",
       },
       {
         id: 33,
@@ -558,10 +590,11 @@ export const eventData = [
         coordinators: [
           { name: "Aryan Janjani", contact: "884987685" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof.Supriya Singh", Email: "supriya.singh@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof.Supriya Singh", email: "supriya.singh@aitindia.in" },
         ],
         imageSrc: "posters/talent tango.png",
+        link: "",
       },
       {
         id: 34,
@@ -575,16 +608,17 @@ export const eventData = [
         coordinators: [
           { name: "Shaan Patel", contact: "9978488254" },
         ],
-        Faculty_coordinators: [
-          { name: "Prof. Ashwin Patel", Email: "ashwin.patel@aitindia.in" },
+        facultyCoordinators: [
+          { name: "Prof. Ashwin Patel", email: "ashwin.patel@aitindia.in" },
         ],
         imageSrc: "poster/Laser_Tag.jpeg",
+        link: "",
       },
       {
         id: 35,
         category: "Non-Technical",
         date: "1 March",
-        title: "FUTURIS TIC - build smart city.",
+        title: "FUTURISTIC - build smart city.",
         description: "Planning & Designing of a future innovative smart city. Smart city – integration of all smart features [smart infrastructure, transportation, energy, water conservation etc.]",
         rounds: "1",
         team: "Solo/3 Member",
@@ -592,9 +626,10 @@ export const eventData = [
         coordinators: [
           { name: "Yana Jaiswal", contact: "8128593169" },
         ]
-        ,Faculty_coordinators: [
-          { name: "Prof. Sandhya MC", Email: "sandhya.mc@aitindia.in" },
+        ,facultyCoordinators: [
+          { name: "Prof. Sandhya MC", email: "sandhya.mc@aitindia.in" },
         ],
         imageSrc: "poster/Non_Tech_Sorting.jpeg",
+        link: "",
       },
 ];
