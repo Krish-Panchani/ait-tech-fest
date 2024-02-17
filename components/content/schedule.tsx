@@ -106,16 +106,16 @@ export default function Schedule() {
                                 </DrawerTrigger>
                                 <DrawerContent>
                                     <div className="mx-auto w-full max-w-xl">
-                                        <DrawerHeader>
-                                            <DrawerTitle>{event.name}</DrawerTitle>
+                                        <DrawerHeader className="text-left">
+                                            <DrawerTitle className="uppercase fon">{event.name}</DrawerTitle>
                                             <Separator className="my-2" />
                                             <DrawerDescription>Date: {event.date}</DrawerDescription>
                                             <DrawerDescription>Duration: {event.duration}</DrawerDescription>
                                             <Separator className="my-2" />
                                             {Array.isArray(event.expert) && event.expert.map((expert, index) => (
                                                 <React.Fragment key={index}>
-                                                    <DrawerTitle className="text-left">Expert: {expert.name}</DrawerTitle>
-                                                    <DrawerDescription className="text-left">{expert.description}</DrawerDescription>
+                                                    <DrawerTitle className="text-left mt-2 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">Expert: {expert.name}</DrawerTitle>
+                                                    <DrawerDescription className="text-left text-xs">{expert.description}</DrawerDescription>
                                                 </React.Fragment>
                                             ))}
                                         </DrawerHeader>
