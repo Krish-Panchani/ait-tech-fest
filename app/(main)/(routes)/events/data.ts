@@ -332,7 +332,7 @@ export const eventData = [
         ],Faculty_coordinators: [
           { name: "Prof. Puja Chaturvedi", Email: "puja.chaturvedi@aitindia.in" },
         ],
-        imageSrc: "posters/visual vista.png",
+        imageSrc: "posters/visualvista.jpg",
       },
       {
         id: 21,
