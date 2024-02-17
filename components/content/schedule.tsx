@@ -122,7 +122,7 @@ export default function Schedule() {
 
                                         <DrawerFooter>
                                             <Link
-                                                href={"docs.google.com/forms/d/e/1FAIpQLSe9LoyUrnLzfpGiSedab0FQmBCw9soUUBWLdLDTfk-w1gOuSA/viewform"}
+                                                href={"https://docs.google.com/forms/d/e/1FAIpQLSe9LoyUrnLzfpGiSedab0FQmBCw9soUUBWLdLDTfk-w1gOuSA/viewform"}
                                                 target="_blank"
                                                 className="mx-auto">
                                                 <Button variant="primary" size={"sm"}>Register for Workshop</Button>
