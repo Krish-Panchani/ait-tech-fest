@@ -17,7 +17,7 @@ export const eventData = [
           { name: "Prof.Vanita Dandhwani ", email: "vanita.dandhwani@aitindia.in" },
         ],
         imageSrc: "poster/Trailblazer_.jpg",
-        link: "",
+        link: "rules/TrailBlazer.pdf",
       },
       {
         id: 2,
@@ -36,7 +36,7 @@ export const eventData = [
           { name: "Dr.Harsha Padheriya ", email: "harsha.padheriya@aitindia.in" },
         ],
         imageSrc: "poster/2.png",
-        link: "",
+        link: "rules/TechShastrarth.pdf",
         
       },
       {
@@ -55,7 +55,7 @@ export const eventData = [
           { name: "Prof. Divya pathak ", email: "divya.pathaka@aitindia.in" },
         ],
         imageSrc: "poster/techshowdown.jpg",
-        link: "",
+        link: "rules/TechShowdown.pdf",
       },
       {
         id: 4,
@@ -72,14 +72,14 @@ export const eventData = [
           { name: "Prof.Ankita Shah  ", email: "ankita.shah@aitindia.in" },
         ],
         imageSrc: "poster/lightningrelay-ers.jpg",
-        link: "",
+        link: "rules/LightningRelay-ers.pdf",
       },
       {
         id: 5,
         category: "Technical",
         date: "1 March",
         title: "Code Crisis",
-        description: "code will be provided along /with the desired output and participants have to find out as much errors as they can and rectify it",
+        description: "Code will be provided along /with the desired output and participants have to find out as much errors as they can and rectify it",
         rounds: "2",
         team: "Solo",
         price: "30",
@@ -89,14 +89,14 @@ export const eventData = [
           { name: "Prof. Darshana Patel ", email: "darshana.patel@aitindia.in" },
         ],
         imageSrc: "poster/codecrisis.jpg",
-        link: "",
+        link: "rules/CodeCrisis.pdf",
       },
       {
         id: 6,
         category: "Technical",
         date: "2 March",
         title: "Unfinished Dojo",
-        description: "participants have to fill in the code snippets according to the desired output based on their applied logic.",
+        description: "Participants have to fill in the code snippets according to the desired output based on their applied logic.",
         rounds: "2",
         team: "Solo",
         price: "30",
@@ -107,7 +107,7 @@ export const eventData = [
           { name: "Prof. Preksha patel ", email: "preksha.patel@aitindia.in" },
         ],
         imageSrc: "poster/unfinisheddojo.jpg",
-        link: "",
+        link: "rules/UnfinishedDojo.pdf",
       },
       {
         id: 7,
@@ -124,14 +124,14 @@ export const eventData = [
           { name: "Prof. Archana Jethava ", email: "archana.jethava@aitindia.in" },
         ],
         imageSrc: "poster/webify.jpg",
-        link: "",
+        link: "rules/Webify.pdf",
       }, 
       {
         id: 8,
         category: "Technical",
         date: "1 March",
         title: "Blockly",
-        description: "coders will drag and drop blocks of code snippets using blockly software ",
+        description: "Coders will drag and drop blocks of code snippets using blockly software ",
         rounds: "3",
         team: "Solo",
         price: "30",
@@ -141,7 +141,7 @@ export const eventData = [
           { name: "Prof.Mitisha Barot", email: "mitisha.barot@aitindia.in" },
         ],
         imageSrc: "poster/blockly.jpg",
-        link: "",
+        link: "rules/Blockly.pdf",
       },
       {
         id: 9,
@@ -158,14 +158,14 @@ export const eventData = [
           { name: "Prof.Margi Patel", email: "margi.patel@aitindia.in" },
         ],
         imageSrc: "poster/pixelparty.jpg",
-        link: "",
+        link: "rules/PixelParty.pdf",
       },
       {
         id: 10,
         category: "Technical",
         date: "1 March",
         title: "Codin' Dark",
-        description: "participants have to code without looking at the monitor and their accuracy will be checked.",
+        description: "Participants have to code without looking at the monitor and their accuracy will be checked.",
         rounds: "3",
         team: "Solo",
         price: "30",
@@ -175,7 +175,7 @@ export const eventData = [
           { name: "Prof. Dhruvi Suthar ", email: "dhruvi.suthar@aitindia.in" },
         ],
         imageSrc: "poster/codin'thedark.jpg",
-        link: "",
+        link: "rules/Codin'Dark.pdf",
       },
       {
         id: 11,
@@ -194,7 +194,7 @@ export const eventData = [
           { name: "Dr Leena Patel", email: "leena.patel@aitindia.in" },
         ],
         imageSrc: "poster/shellseekers.jpg",
-        link: "",
+        link: "rules/ShellSeekers.pdf",
       },
       {
         id: 12,
@@ -212,8 +212,8 @@ export const eventData = [
           { name: "Prof. Madhumita Joshi ", email: "madhumita.joshi@aitindia.in" },
           { name: "Prof. Navneet Yadav ", email: "navneet.yadav@aitindia.in" },
         ],
-        imageSrc: "posters/spur_of_the_moment.png",
-        link: "",
+        imageSrc: "poster/spur_of_the_moment.png",
+        link: "rules/Extempore.pdf",
       },
       {
         id: 13,
@@ -230,8 +230,8 @@ export const eventData = [
           { name: "Prof Ishan Bhavsar", email: "ishan.bhavsar@aitindia.in" },
           { name: "Prof. Sonal Kapadia", email: "sonal.kapadia@aitindia.in" },
         ],
-        imageSrc: "posters/mechanical_quizzard.png",
-        link: "",
+        imageSrc: "poster/mechanical_quizzard.png",
+        link: "rules/TechQuiz-mech.pdf",
       },
       {
         id: 14,
@@ -248,8 +248,8 @@ export const eventData = [
           { name: "Prof. Navneet Yadav", email: "navneet.yadav@aitindia.in" },
           { name: "Prof. Sonal Kapadia", email: "sonal.kapadia@aitindia.in" },
         ],
-        imageSrc: "posters/cadathon.png",
-        link: "",
+        imageSrc: "poster/cadathon.png",
+        link: "rules/Cadathon.pdf",
       },
       {
         id: 15,
@@ -266,8 +266,8 @@ export const eventData = [
           { name: "Dr. Pooja Joshi", email: "pooja.joshi@aitindia.in" },
           { name: "Mr. Ashwin Patel ", email: "ashwin.patel @aitindia.in" },
         ],
-        imageSrc: "posters/simtronics.png",
-        link: "",
+        imageSrc: "poster/simtronics.png",
+        link: "rules/ClashOfBreadbord-Simtronics.pdf",
       },
       {
         id: 16,
@@ -281,8 +281,11 @@ export const eventData = [
         coordinators: [
           { name: "Vipksha Parmar", contact: "7016011278" },
         ],
-        imageSrc: "posters/mindset_melee.png",
-        link: "",
+        facultyCoordinators: [
+          { name: "Prof Tripti Sharma", email: "tripti.sharma@aitindia.in" },
+        ],
+        imageSrc: "poster/mindset_melee.png",
+        link: "rules/MindsetMelee.pdf",
       },
       {
         id: 17,
@@ -299,8 +302,8 @@ export const eventData = [
         facultyCoordinators: [
           { name: "Prof.Akash Rai", email: "akash.rai@aitindia.in" },
         ],
-        imageSrc: "posters/money heist.png",
-        link: "",
+        imageSrc: "poster/money heist.png",
+        link: "rules/moneyHeist.pdf",
       },
       {
         id: 18,
@@ -316,8 +319,8 @@ export const eventData = [
         ],facultyCoordinators: [
           { name: "Prof Harshil Panchal", email: "harshil.panchal@aitindia.in" },
         ],
-        imageSrc: "posters/shelby_surge.png",
-        link: "",
+        imageSrc: "poster/shelby_surge.png",
+        link: "rules/ShrlbySurge.pdf",
       },
       {
         id: 19,
@@ -335,7 +338,7 @@ export const eventData = [
           { name: "Prof Snehal Ambulkar ", email: "snehal.ambulkar @aitindia.in" },
         ],
         imageSrc: "poster/Image_Gen.png",
-        link: "",
+        link: "rules/AI poster making.pdf",
       },
       {
         id: 20,
@@ -351,8 +354,8 @@ export const eventData = [
         ],facultyCoordinators: [
           { name: "Prof. Puja Chaturvedi", email: "puja.chaturvedi@aitindia.in" },
         ],
-        imageSrc: "posters/visualvista.jpg",
-        link: "",
+        imageSrc: "poster/visualvista.jpg",
+        link: "rules/Picto.docx.pdf",
       },
       {
         id: 21,
@@ -376,7 +379,7 @@ export const eventData = [
           { name: "Prof.Bansari Thakkar", email: "bansari.thakkar@aitindia.in" },
         ],
         imageSrc: "poster/e-yuddha.jpeg",
-        link: "",
+        link: "rules/GAMES.docx.pdf",
       },
       {
         id: 22,
@@ -412,7 +415,7 @@ export const eventData = [
           { name: "Prof.Apexa Bhavsar ", email: "apexa.bhavsar@aitindia.in" },
         ],
         imageSrc: "poster/Chakrabyuh_.png",
-        link: "",
+        link: "rules/Treasure hunt.docx.pdf",
       },
       {
         id: 24,
@@ -430,7 +433,7 @@ export const eventData = [
           { name: "Prof.Harshida Chaudhary", email: "harshida.chaudhary@aitindia.in" },
         ],
         imageSrc: "poster/Frame_Fusion.jpg",
-        link: "",
+        link: "rules/Photography.docx.pdf",
       },
       {
         id: 25,
@@ -448,7 +451,7 @@ export const eventData = [
           { name: "Prof. Riddhi Raval", email: "riddhi.raval@aitindia.in" },
         ],
         imageSrc: "poster/web_jaal.jpeg",
-        link: "",
+        link: "rules/WEBSITE SCAVENGER HUNT.docx.pdf",
       },
       {
         id: 26,
@@ -466,7 +469,7 @@ export const eventData = [
           { name: "Prof. Preksha patel  ", email: "preksha.patel@aitindia.in" },
         ],
         imageSrc: "poster/Non_Tech_Sorting.jpeg",
-        link: "",
+        link: "rules/non tech sorting.docx.pdf",
       },
       {
         id: 27,
@@ -484,7 +487,7 @@ export const eventData = [
           { name: "Prof.Priyal Desai", email: "priyal.desai@aitindia.in" },
         ],
         imageSrc: "poster/Turbo_Typing.jpg",
-        link: "",
+        link: "rules/speed typing.docx.pdf",
       },
       {
         id: 28,
@@ -502,7 +505,7 @@ export const eventData = [
           { name: "Dr.Jaimin Jani", email: "jaimin.jani@aitindia.in" },
         ],
         imageSrc: "poster/vishwa_parishad.jpeg",
-        link: "",
+        link: "rules/Mock MUN.docx.pdf",
       },
       {
         id: 29,
@@ -521,7 +524,7 @@ export const eventData = [
           { name: "Prof. Dhruvi Suthar", email: "dhruvi.suthar@aitindia.in"},
           { name: "Prof.vanita Dandhwani", email: "vanita.dandhwani@aitindia.in"},
         ],
-        imageSrc: "posters/spotlight showdown.png",
+        imageSrc: "poster/spotlight showdown.png",
         link: "",
       },
       {
@@ -539,8 +542,8 @@ export const eventData = [
         facultyCoordinators: [
           { name: "Prof.Akash Rai ", email: "akash.rai@aitindia.in" },
         ],
-        imageSrc: "posters/strategic stacks.png",
-        link: "",
+        imageSrc: "poster/strategic stacks.png",
+        link: "rules/Event Strategic stack.pdf",
       },
       {
         id: 31,
@@ -557,8 +560,8 @@ export const eventData = [
         facultyCoordinators: [
           { name: "Prof Harshil Panchal", email: "harshil.panchal@aitindia.in" },
         ],
-        imageSrc: "posters/crazy add.png",
-        link: "",
+        imageSrc: "poster/crazy add.png",
+        link: "rules/Crazzy Add (1).pdf",
       },
       {
         id: 32,
@@ -576,7 +579,7 @@ export const eventData = [
           { name: "Prof.Supriya Singh", email: "supriya.singh@aitindia.in" },
         ],
         imageSrc: "poster/mini_sark.jpeg",
-        link: "",
+        link: "rules/Mini shark tank.docx.pdf",
       },
       {
         id: 33,
@@ -593,8 +596,8 @@ export const eventData = [
         facultyCoordinators: [
           { name: "Prof.Supriya Singh", email: "supriya.singh@aitindia.in" },
         ],
-        imageSrc: "posters/talent tango.png",
-        link: "",
+        imageSrc: "poster/talent tango.png",
+        link: "rules/vee - event Talent Tango.pdf",
       },
       {
         id: 34,
@@ -612,7 +615,7 @@ export const eventData = [
           { name: "Prof. Ashwin Patel", email: "ashwin.patel@aitindia.in" },
         ],
         imageSrc: "poster/Laser_Tag.jpeg",
-        link: "",
+        link: "rules/LazerTag.pdf",
       },
       {
         id: 35,
@@ -630,6 +633,6 @@ export const eventData = [
           { name: "Prof. Sandhya MC", email: "sandhya.mc@aitindia.in" },
         ],
         imageSrc: "poster/Non_Tech_Sorting.jpeg",
-        link: "",
+        link: "rules/FUTURISTIC.pdf",
       },
 ];
