@@ -13,6 +13,7 @@ import {
     DrawerTrigger,
 } from "@/components/ui/drawer";
 import { Separator } from "../ui/separator"; // Import the missing module from the correct file path
+import React from "react";
 export default function Schedule() {
 
 
@@ -23,8 +24,16 @@ export default function Schedule() {
             name: 'Workshop on cloud computing ',
             date: '27th  February 2024  10:00 AM onwards',
             duration: '5 hours',
-            expert: 'Ms. Samistha Goswami',
-            description: 'Experienced Master Trainer with a demonstrated history of working in the higher education industry, Skilled in AI & ML .He trained 2000+ students.'
+            expert: [
+                {
+                    name: '1. Ms. Samistha Goswami',
+                    description: 'Experienced Master Trainer with a demonstrated history of working in the higher education industry, Skilled in AI & ML .He trained 2000+ students.'
+                },
+                {
+                    name: '2. Mr.Palwinder Singh',
+                    description: 'He has  8+ years experience as a Web application developer,  Worked as Subject Matter expert in IBM Career education .Having good experience on Python , Machine learning, Deep learning, Data Analytics, DevOps, MySQL, MongoDB.'
+                },
+            ]
         },
         {
             day: 'Pre WORKSHOP Day 2',
@@ -32,17 +41,32 @@ export default function Schedule() {
             name: 'Workshop on Cyber security  ',
             date: '28th February 2024  10:00 AM onwards',
             duration: '3 hours',
-            expert: 'Mr.Partho Pandya (Cyber Security Analyst)',
-            description: 'He is a dedicated Cyber Security Researcher and VAPT (Vulnerability Assessment and Penetration Testing) Analyst. He brings a wealth of expertise to the dynamic field of cybersecurity. His academic background, coupled with hands- on experience has allowed him to excel in various domains, earning recognition as a top performer in platforms like TryHackMe, where he consistently ranks in the top 4%. Moreover, he has solved 30+ cases with cyber cell and conducted 50+ conferences.'
-        },
+            expert: [
+                {
+                    name: '1. Mr.Partho Pandya (Cyber Security Analyst)',
+                    description: 'He is a dedicated Cyber Security Researcher and VAPT (Vulnerability Assessment and Penetration Testing) Analyst. He brings a wealth of expertise to the dynamic field of cybersecurity. His academic background, coupled with hands- on experience has allowed him to excel in various domains, earning recognition as a top performer in platforms like TryHackMe, where he consistently ranks in the top 4%. Moreover, he has solved 30+ cases with cyber cell and conducted 50+ conferences.'
+                },
+                {
+                    name: '2. Mr. Akshar Ratnani (Cyber Security Analyst)',
+                    description: 'He has expertise in the vast field of Cybersecurity domains such as VAPT, SOC, Compliance and Digital Forensics. He has Skills  Network Security ,Penetration Testing,Security Awareness Training, Malware Analysis, Bug Bounty Hunting, Forensics Analysis'
+                },
+            ]},
         {
             day: 'Pre WORKSHOP Day 3',
             time: '29 Feb, 2024',
             name: 'Workshop on Full stack with python ',
             date: '29th February 2024  10:00 AM onwards',
             duration: '4 hours',
-            expert: 'Mr. Jigar Thakkar (Developer & Trainer)',
-            description: 'Trained more than 5000+ students with a mixed category for training Students, experienced IT individuals and students looking for placements in Java. Subjects covered in all this training was Office, Data Structure, C, C++, Data Structure, HTML, CSS, Java Script, Python, IOT, Core Java, Advance Java and Oracle'
+            expert: [
+                {
+                    name: '1. Mr. Jigar Thakkar (Developer & Trainer)',
+                    description: 'Trained more than 5000+ students with a mixed category for training Students, experienced IT individuals and students looking for placements in Java. Subjects covered in all this training was Office, Data Structure, C, C++, Data Structure, HTML, CSS, Java Script, Python, IOT, Core Java, Advance Java and Oracle'
+                },
+                {
+                    name: '2. Ms. Anjali Patel (Developer & Trainer)',
+                    description: 'Passionate Android – Python Trainer with 10 years of experience in Android / Python as Trainer. Good Knowledge in Mobile development (Android, Flutter, React Native) and Web Development (Python, Django Web framework). Strong experience in Training environments. Proficient in object-oriented design, data structures, Problem solving and debugging. Fully conversant with the latest IT Innovations and ability to produce high quality deliverable within estimated Time constraints in pressurized environments.'
+                },
+            ]
         },
     ];
     const scheduleData = [
@@ -81,13 +105,19 @@ export default function Schedule() {
                                     </div>
                                 </DrawerTrigger>
                                 <DrawerContent>
-                                    <div className="mx-auto w-full max-w-sm">
+                                    <div className="mx-auto w-full max-w-xl">
                                         <DrawerHeader>
                                             <DrawerTitle>{event.name}</DrawerTitle>
                                             <Separator className="my-2" />
                                             <DrawerDescription>Date: {event.date}</DrawerDescription>
                                             <DrawerDescription>Duration: {event.duration}</DrawerDescription>
-                                            <DrawerDescription>Expert: {event.expert}</DrawerDescription>
+                                            <Separator className="my-2" />
+                                            {Array.isArray(event.expert) && event.expert.map((expert, index) => (
+                                                <React.Fragment key={index}>
+                                                    <DrawerTitle className="text-left">Expert: {expert.name}</DrawerTitle>
+                                                    <DrawerDescription className="text-left">{expert.description}</DrawerDescription>
+                                                </React.Fragment>
+                                            ))}
                                         </DrawerHeader>
 
                                         <DrawerFooter>
