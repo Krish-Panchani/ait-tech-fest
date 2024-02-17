@@ -10,9 +10,9 @@ export const eventData = [
         team: "Solo",
         price: "50",
         coordinators: [
-          { name: "Krishna B", contact: "8780751157" },
+          { name: "Krishna Badgujar", contact: "8780751157" },
         ],
-        imageSrc: "posters/trailblazer.svg",
+        imageSrc: "poster/1.png",
       },
       {
         id: 2,
@@ -24,10 +24,10 @@ export const eventData = [
         team: "4 Members",
         price: "100",
         coordinators: [
-          { name: "Raghav", contact: "9106546270" },
-          { name: "Tapan", contact: "7283839765" },
+          { name: "Raghav Vaishnav", contact: "9106546270" },
+          { name: "Tapan Patel", contact: "7283839765" },
         ],
-        imageSrc: "posters/TECH_SHASTRARTH.svg",
+        imageSrc: "poster/2.png",
       },
       {
         id: 3,
@@ -39,9 +39,9 @@ export const eventData = [
         team: "4 Members",
         price: "100",
         coordinators: [
-          { name: "Vaishnavi", contact: "6355384251" },
+          { name: "Vaishnavi Chawla", contact: "6355384251" },
         ],
-        imageSrc: "posters/TECH_SHOWDOWN.svg",
+        imageSrc: "poster/3.png",
       },
       {
         id: 4,
@@ -56,7 +56,7 @@ export const eventData = [
           { name: "Prashant", contact: "-" },
     
         ],
-        imageSrc: "posters/LIGHTNING_RELAY-ERS.svg",
+        imageSrc: "poster/4.png",
       },
       {
         id: 5,
@@ -70,7 +70,7 @@ export const eventData = [
         coordinators: [
           { name: "Aryan Hotchandani", contact: "9106464264" },
         ],
-        imageSrc: "posters/CODE_CRISIS.svg",
+        imageSrc: "poster/5.png",
       },
       {
         id: 6,
@@ -82,9 +82,9 @@ export const eventData = [
         team: "Solo",
         price: "30",
         coordinators: [
-          { name: "Raj", contact: "9100000000" },
+          { name: "Raj Rathod", contact: "9316027675" },
         ],
-        imageSrc: "posters/UNFINISHED DOJO.svg",
+        imageSrc: "poster/6.png",
       },
       {
         id: 7,
@@ -98,7 +98,7 @@ export const eventData = [
         coordinators: [
           { name: "Krish Panchani", contact: "8866799347" },
         ],
-        imageSrc: "posters/Webify.svg",
+        imageSrc: "poster/8.png",
       }, 
       {
         id: 8,
@@ -110,9 +110,9 @@ export const eventData = [
         team: "Solo",
         price: "30",
         coordinators: [
-          { name: "Manmohan", contact: "7232010574" },
+          { name: "Manmohan Maloo", contact: "7232010574" },
         ],
-        imageSrc: "posters/Blockly.svg",
+        imageSrc: "poster/9.png",
       },
       {
         id: 9,
@@ -124,9 +124,9 @@ export const eventData = [
         team: "Solo/2 Members",
         price: "50",
         coordinators: [
-          { name: "Presha", contact: "8799027624" },
+          { name: "Presha Patel", contact: "8799027624" },
         ],
-        imageSrc: "posters/Pixel_Party.svg",
+        imageSrc: "poster/10.png",
       },
       {
         id: 10,
@@ -138,9 +138,9 @@ export const eventData = [
         team: "Solo",
         price: "30",
         coordinators: [
-          { name: "Prachi", contact: "6358031500" },
+          { name: "Prachi Anarkat", contact: "6358031500" },
         ],
-        imageSrc: "posters/Codin_Dark.svg",
+        imageSrc: "poster/11-1.png",
       },
       {
         id: 11,
@@ -155,7 +155,7 @@ export const eventData = [
           { name: "Meet Katarmal", contact: "9137674983" },
           { name: "Karan Bharda", contact: "7048458658" },
         ],
-        imageSrc: "posters/ShellSeekers.svg",
+        imageSrc: "poster/7.png",
       },
       {
         id: 12,
@@ -293,11 +293,11 @@ export const eventData = [
         team: "2/3/4/5 Members",
         price: "60-100",
         coordinators: [
-          { name: "Abhishek (VALO)", contact: "9974355597" },
-          { name: "Praveen (VALO)", contact: "9327622985" },
-          { name: "Mann (BGMI)", contact: "7575074341" },
-          { name: "Jaydeep (BGMI)", contact: "7990643645" },
-          { name: "Sahil (NSF)", contact: "9376059922" },
+          { name: "Abhishek Nishad (VALO)", contact: "9974355597" },
+          { name: "Pravin Rajwani  (VALO)", contact: "9327622985" },
+          { name: "Mann Soni (BGMI)", contact: "7575074341" },
+          { name: "Jaydip Gohil (BGMI)", contact: "7990643645" },
+          { name: "Sahil Sharma (NSF)", contact: "9376059922" },
           { name: "Dwip (NSF)", contact: "9429108956" },
         ],
         imageSrc: "poster/e-yuddha.jpeg",
@@ -326,7 +326,7 @@ export const eventData = [
         team: "4 Members",
         price: "100",
         coordinators: [
-          { name: "Vasant", contact: "9316662350" },
+          { name: "Vasant Konar", contact: "9316662350" },
         ],
         imageSrc: "poster/Chakrabyuh_.png",
       },
@@ -338,9 +338,9 @@ export const eventData = [
         description: "Participants will be given a theme to capture and the best 3 will be selected/ Participants will be given a theme to capture and the best 3 will be selected",
         rounds: "1",
         team: "Solo/ 2 Members",
-        price: "30/60",
+        price: "60/100",
         coordinators: [
-          { name: "Sneh", contact: "9537064083" },
+          { name: "Sneh Panchal", contact: "9537064083" },
         ],
         imageSrc: "poster/Frame_Fusion.jpg",
       },
@@ -354,7 +354,7 @@ export const eventData = [
         team: "Solo",
         price: "40",
         coordinators: [
-          { name: "manmohan", contact: "7232010574" },
+          { name: "Manmohan Maloo", contact: "7232010574" },
         ],
         imageSrc: "poster/web_jaal.jpeg",
       },
@@ -368,7 +368,7 @@ export const eventData = [
         team: "5-7 Members",
         price: "100-140",
         coordinators: [
-          { name: "Vaishanvi", contact: "6355384251" },
+          { name: "Vaishnavi Chawla", contact: "6355384251" },
         ],
         imageSrc: "poster/Non_Tech_Sorting.jpeg",
       },
@@ -382,7 +382,7 @@ export const eventData = [
         team: "Solo",
         price: "30",
         coordinators: [
-          { name: "sahil sharma", contact: "9376059922" },
+          { name: "Sahil Sharma", contact: "9376059922" },
         ],
         imageSrc: "poster/Turbo_Typing.jpg",
       },
@@ -411,7 +411,7 @@ export const eventData = [
         price: "20 per person",
         coordinators: [
           { name: "Drashti", contact: "6354187793" },
-          { name: "Ananya", contact: "9408574571" },
+          { name: "Ananya Shah", contact: "9408574571" },
         ],
         imageSrc: "posters/The_spotlight_showdown.svg",
       },
@@ -497,7 +497,7 @@ export const eventData = [
         coordinators: [
           { name: "-", contact: "0000000000" },
         ],
-        imageSrc: "poster/Non_Tech_Sorting.jpeg",
+        imageSrc: "poster/futuristic.png",
       },
 ];
 
