@@ -598,4 +598,3 @@ export const eventData = [
         imageSrc: "poster/Non_Tech_Sorting.jpeg",
       },
 ];
-
