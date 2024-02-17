@@ -74,12 +74,12 @@ export default function Schedule() {
         {
             day: 'Day 1 - Events',
             time: '1 March, 2024',
-            link : '',
+            link : 'https://drive.google.com/file/d/1YZg1Fy91tKcOIUUkH95j3DAe5m_FITUg/view',
         },
         {
             day: 'Day 2 - Events',
             time: '2 March, 2024',
-            link : '',
+            link : 'https://drive.google.com/file/d/1YZg1Fy91tKcOIUUkH95j3DAe5m_FITUg/view',
         },
     ];
     // { day: 'Day 1 - Workshops', time: '10:00 AM - 5:00 PM' },
@@ -143,7 +143,7 @@ export default function Schedule() {
                     {scheduleData.map((item, index) => (
                         <Link href={item.link} target="_blank" key={index}>
                             <div 
-                                className="grid gap-1 border border-indigo-400 rounded-xl px-4 py-4" 
+                                className="grid grid-cols-1 md:grid-cols-2 gap-1 items-center border border-indigo-400 rounded-xl px-4 py-4 mx-auto" 
                                 style={{ cursor: 'pointer' }}
                             >
                                 <h3 className="text-lg font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">{item.day}</h3>
