@@ -74,10 +74,12 @@ export default function Schedule() {
         {
             day: 'Day 1 - Events',
             time: '1 March, 2024',
+            link : '',
         },
         {
             day: 'Day 2 - Events',
             time: '2 March, 2024',
+            link : '',
         },
     ];
     // { day: 'Day 1 - Workshops', time: '10:00 AM - 5:00 PM' },
@@ -99,7 +101,9 @@ export default function Schedule() {
                         <div className="mt-4" key={index}>
                             <Drawer>
                                 <DrawerTrigger asChild>
-                                    <div className="grid gap-1 border border-orange-400 rounded-xl px-4 py-4" style={{ cursor: 'pointer' }}>
+                                    <div 
+                                    className="grid gap-1 border border-orange-400 rounded-xl px-4 py-4" 
+                                    style={{ cursor: 'pointer' }}>
                                         <h3 className="text-lg font-bold bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">{event.day}</h3>
                                         <p className="text-sm text-gray-500 dark:text-gray-400">{event.time}</p>
                                     </div>
@@ -137,13 +141,18 @@ export default function Schedule() {
                         </div>
                     ))}
                     {scheduleData.map((item, index) => (
-                        <div className="grid gap-1" key={index}>
-                            <h3 className="text-lg font-bold">{item.day}</h3>
-                            <p className="text-sm text-gray-500 dark:text-gray-400">{item.time}</p>
-                        </div>
+                        <Link href={item.link} target="_blank" key={index}>
+                            <div 
+                                className="grid gap-1 border border-indigo-400 rounded-xl px-4 py-4" 
+                                style={{ cursor: 'pointer' }}
+                            >
+                                <h3 className="text-lg font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">{item.day}</h3>
+                                <p className="text-sm text-gray-500 dark:text-gray-400">{item.time}</p>
+                            </div>
+                        </Link>
                     ))}
                 </div>
-                <div className="flex justify-center mx-auto">
+                {/* <div className="flex justify-center mx-auto">
                     <Link href="events">
                         <Button variant="orange" >See All Events</Button>
                     </Link>
@@ -151,7 +160,7 @@ export default function Schedule() {
                         target="_blank">
                         <Button variant="orange" >Tentative Schedule</Button>
                     </Link>
-                </div>
+                </div> */}
             </div>
         </section>
     );

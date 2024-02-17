@@ -17,6 +17,7 @@ import { Separator } from "@/components/ui/separator";
 
 import { eventData } from './data';
 import Link from "next/link";
+import { FaBook } from "react-icons/fa";
 const imageLoader = () => {
   return (
     <Skeleton />
@@ -72,10 +73,18 @@ export default function Events() {
                           <DrawerDescription>Rounds: {event.rounds}</DrawerDescription>
                           <DrawerDescription>Team/Individual: {event.team}</DrawerDescription>
                           <DrawerDescription>Price: ₹{event.price}/-</DrawerDescription>
+                          
+                          <div className="pt-3 flex items-center">
+                          <FaBook className="text-amber-500 " />
+                          
+                          <DrawerDescription className="px-2 font-bold uppercase bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">Rules & Regulations</DrawerDescription>
+                          </div>
                         </div>
                         <Separator className="my-2"></Separator>
 
-                        <DrawerTitle className="text-base">Co-Ordinators</DrawerTitle>
+                        <DrawerTitle className="text-base">Faculty Co-Ordinators</DrawerTitle>
+                        
+                        <DrawerTitle className="text-base">Student Co-Ordinators</DrawerTitle>
                         {event.coordinators && event.coordinators.map((coordinator) => (
                           <DrawerDescription key={coordinator.name}>
                             {coordinator.name}: <Link href={"tel:+91 " + coordinator.contact}> +91 {coordinator.contact} </Link>
