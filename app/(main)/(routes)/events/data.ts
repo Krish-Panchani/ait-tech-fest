@@ -44,7 +44,7 @@ export const eventData = [
         category: "Technical",
         date: "2 March",
         title: "Tech Showdown",
-        description: "A technology will be given . One team will debate on its pros and other will debate on its cons. Best team will be the winner.",
+        description: "Participants have to guess the name of s/w from icons and missing/jumbled letters / Participants have to guess the name of website from logo and missing/jumbled letters",
         rounds: "3",
         team: "4 Members",
         price: "100",
