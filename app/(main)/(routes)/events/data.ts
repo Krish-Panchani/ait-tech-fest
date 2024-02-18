@@ -72,7 +72,7 @@ export const eventData = [
           { name: "Prof.Ankita Shah  ", email: "ankita.shah@aitindia.in" },
         ],
         imageSrc: "poster/lightningrelay-ers.jpg",
-        link: "rules/LightningRelay-ers.pdf",
+        link: "rules/Code relay (1).pdf",
       },
       {
         id: 5,
@@ -194,7 +194,7 @@ export const eventData = [
           { name: "Dr Leena Patel", email: "leena.patel@aitindia.in" },
         ],
         imageSrc: "poster/shellseekers.jpg",
-        link: "rules/ShellSeekers.pdf",
+        link: "rules/CTF.docx.pdf",
       },
       {
         id: 12,
@@ -379,7 +379,7 @@ export const eventData = [
           { name: "Prof.Bansari Thakkar", email: "bansari.thakkar@aitindia.in" },
         ],
         imageSrc: "poster/e-yuddha.jpeg",
-        link: "rules/GAMES.docx.pdf",
+        link: "rules/GAMES.pdf",
       },
       {
         id: 22,
@@ -433,7 +433,7 @@ export const eventData = [
           { name: "Prof.Harshida Chaudhary", email: "harshida.chaudhary@aitindia.in" },
         ],
         imageSrc: "poster/Frame_Fusion.jpg",
-        link: "rules/Photography.docx.pdf",
+        link: "rules/frame_fusion_photography&videography[1].pdf",
       },
       {
         id: 25,
@@ -505,7 +505,7 @@ export const eventData = [
           { name: "Dr.Jaimin Jani", email: "jaimin.jani@aitindia.in" },
         ],
         imageSrc: "poster/vishwa_parishad.jpeg",
-        link: "rules/Mock MUN.docx.pdf",
+        link: "rules/VISHWA_PARISHAD_mock_mun[1].pdf",
       },
       {
         id: 29,
@@ -632,7 +632,7 @@ export const eventData = [
         ,facultyCoordinators: [
           { name: "Prof. Sandhya MC", email: "sandhya.mc@aitindia.in" },
         ],
-        imageSrc: "poster/Non_Tech_Sorting.jpeg",
+        imageSrc: "poster/futuristic.png",
         link: "rules/FUTURISTIC.pdf",
       },
 ];
