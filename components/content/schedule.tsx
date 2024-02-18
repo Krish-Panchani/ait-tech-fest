@@ -74,12 +74,12 @@ export default function Schedule() {
         {
             day: 'Day 1 - Events',
             time: '1 March, 2024',
-            link : 'https://drive.google.com/file/d/1YZg1Fy91tKcOIUUkH95j3DAe5m_FITUg/view',
+            link : 'rules/Day 1.pdf',
         },
         {
             day: 'Day 2 - Events',
             time: '2 March, 2024',
-            link : 'https://drive.google.com/file/d/1YZg1Fy91tKcOIUUkH95j3DAe5m_FITUg/view',
+            link : 'rules/Day 2.pdf',
         },
     ];
     // { day: 'Day 1 - Workshops', time: '10:00 AM - 5:00 PM' },
