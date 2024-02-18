@@ -72,7 +72,7 @@ export const eventData = [
           { name: "Prof.Ankita Shah  ", email: "ankita.shah@aitindia.in" },
         ],
         imageSrc: "poster/lightningrelay-ers.jpg",
-        link: "rules/LightningRelay-ers.pdf",
+        link: "rules/Code relay (1).pdf",
       },
       {
         id: 5,
@@ -433,7 +433,7 @@ export const eventData = [
           { name: "Prof.Harshida Chaudhary", email: "harshida.chaudhary@aitindia.in" },
         ],
         imageSrc: "poster/Frame_Fusion.jpg",
-        link: "rules/Photography.docx.pdf",
+        link: "rules/frame_fusion_photography&videography[1].pdf",
       },
       {
         id: 25,
