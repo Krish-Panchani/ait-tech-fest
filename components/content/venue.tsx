@@ -24,8 +24,8 @@ export default function Venue() {
                 <div className="flex flex-col items-center space-y-4 text-center">
                     <div className="space-y-2">
                         <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">Venue</div>
-                        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                            Where???
+                        <h1 className="text-3xl font-bold tracking-tighter sm:text-3xl md:text-3xl lg:text-3xl/none">
+                            Where?
                         </h1>
                         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                             AIT, Beside Vasantnagar Township 380061, Gota Ognaj road, Off, Gota Cross roads, Ahmedabad
