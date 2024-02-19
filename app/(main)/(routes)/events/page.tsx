@@ -76,12 +76,12 @@ const Events = () => {
                           <DrawerDescription>Team/Individual: {event.team}</DrawerDescription>
                           <DrawerDescription>Price: ₹{event.price}/-</DrawerDescription>
 
-                          <Link href={event.link} target="_blank">
+                          {/* <Link href={event.link} target="_blank">
                             <div className="pt-3 flex items-center">
                               <FaBook className="text-amber-500 " />
                               <DrawerDescription className="px-2 font-bold uppercase bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">Rules & Regulations</DrawerDescription>
                             </div>
-                          </Link>
+                          </Link> */}
                         </div>
                         <Separator className="my-2"></Separator>
 
@@ -102,7 +102,9 @@ const Events = () => {
 
                       <DrawerFooter>
                         {/* <Button>Submit</Button> */}
-                        <Button variant="primary" size={"sm"}>Register</Button>
+                        <Link href={event.link} target="_blank">
+                        <Button  variant="primary" size={"sm"}>Get More Details</Button>
+                        </Link>
                         <DrawerClose asChild>
                           <Button variant="outline">Cancel</Button>
                         </DrawerClose>
