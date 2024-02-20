@@ -137,6 +137,7 @@ export const eventData = [
         price: "30",
         coordinators: [
           { name: "Manmohan Maloo", contact: "7232010574" },
+          { name: " or Manmohan Maloo", contact: "8000880748" },
         ],facultyCoordinators: [
           { name: "Prof.Mitisha Barot", email: "mitisha.barot@aitindia.in" },
         ],
@@ -425,7 +426,7 @@ export const eventData = [
         description: "Participants will be given a theme to capture and the best 3 will be selected/ Participants will be given a theme to capture and the best 3 will be selected",
         rounds: "1",
         team: "Solo/ 2 Members",
-        price: "60 solo, ₹100 Duo",
+        price: "30 solo (Photography), ₹60 Solo/ ₹100 Duo (Videography)",
         coordinators: [
           { name: "Sneh Panchal", contact: "9537064083" },
         ],
@@ -446,6 +447,7 @@ export const eventData = [
         price: "40",
         coordinators: [
           { name: "Manmohan Maloo", contact: "7232010574" },
+          { name: " or Manmohan Maloo", contact: "8000880748" },
         ],
         facultyCoordinators: [
           { name: "Prof. Riddhi Raval", email: "riddhi.raval@aitindia.in" },
