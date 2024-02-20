@@ -44,7 +44,7 @@ export const eventData = [
         category: "Technical",
         date: "2 March",
         title: "Tech Showdown",
-        description: "A technology will be given . One team will debate on its pros and other will debate on its cons. Best team will be the winner.",
+        description: "Participants have to guess the name of s/w from icons and missing/jumbled letters / Participants have to guess the name of website from logo and missing/jumbled letters",
         rounds: "3",
         team: "4 Members",
         price: "100",
@@ -137,6 +137,7 @@ export const eventData = [
         price: "30",
         coordinators: [
           { name: "Manmohan Maloo", contact: "7232010574" },
+          { name: " or Manmohan Maloo", contact: "8000880748" },
         ],facultyCoordinators: [
           { name: "Prof.Mitisha Barot", email: "mitisha.barot@aitindia.in" },
         ],
@@ -365,14 +366,14 @@ export const eventData = [
         description: "Private rooms will be created and the participants will compete. Top3 person will win",
         rounds: "Depends On Participants",
         team: "2/3/4/5 Members",
-        price: "60-100",
+        price: "120 (BGMI), ₹50 (NFS), ₹300 (VALO), ₹60 (FALL GUYS)",
         coordinators: [
           { name: "Abhishek Nishad (VALO)", contact: "9974355597" },
           { name: "Pravin Rajwani (VALO)", contact: "9327622985" },
           { name: "Mann Soni(BGMI)", contact: "7575074341" },
           { name: "Jaydeep Gohil(BGMI)", contact: "7990643645" },
-          { name: "Sahil Sharma(NSF)", contact: "9376059922" },
-          { name: "Dwip Pandeya(NSF)", contact: "9429108956" },
+          { name: "Sahil Sharma(NFS)", contact: "9376059922" },
+          { name: "Dwip Pandeya(NFS)", contact: "9429108956" },
         ],
         facultyCoordinators: [
           { name: "Prof. Dhaval Khatri", email: "dhaval.khatri@aitindia.in" },
@@ -425,7 +426,7 @@ export const eventData = [
         description: "Participants will be given a theme to capture and the best 3 will be selected/ Participants will be given a theme to capture and the best 3 will be selected",
         rounds: "1",
         team: "Solo/ 2 Members",
-        price: "60 solo, ₹100 Duo",
+        price: "30 solo (Photography), ₹60 Solo/ ₹100 Duo (Videography)",
         coordinators: [
           { name: "Sneh Panchal", contact: "9537064083" },
         ],
@@ -446,6 +447,7 @@ export const eventData = [
         price: "40",
         coordinators: [
           { name: "Manmohan Maloo", contact: "7232010574" },
+          { name: " or Manmohan Maloo", contact: "8000880748" },
         ],
         facultyCoordinators: [
           { name: "Prof. Riddhi Raval", email: "riddhi.raval@aitindia.in" },
