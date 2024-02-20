@@ -35,7 +35,7 @@ export const eventData = [
         facultyCoordinators: [
           { name: "Dr.Harsha Padheriya ", email: "harsha.padheriya@aitindia.in" },
         ],
-        imageSrc: "poster/2.png",
+        imageSrc: "poster/techshastrarth_.jpg",
         link: "rules/TechShastrarth.pdf",
         
       },
@@ -186,7 +186,7 @@ export const eventData = [
         description: "Participants have to find the hidden Flag or hints and solve security related puzzle to find and exploits vulnerabilities by using Basic LINUX and CLI commands.",
         rounds: "2",
         team: "Solo",
-        price: "30",
+        price: "50",
         coordinators: [
           { name: "Meet Katarmal", contact: "9137674983" },
           { name: "Karan Bharda", contact: "7048458658" },
