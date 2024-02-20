@@ -366,7 +366,7 @@ export const eventData = [
         description: "Private rooms will be created and the participants will compete. Top3 person will win",
         rounds: "Depends On Participants",
         team: "2/3/4/5 Members",
-        price: "60-100",
+        price: "120 (BGMI), ₹50 (NFS), ₹300 (VALO), ₹60 (FALL GUYS)",
         coordinators: [
           { name: "Abhishek Nishad (VALO)", contact: "9974355597" },
           { name: "Pravin Rajwani (VALO)", contact: "9327622985" },
