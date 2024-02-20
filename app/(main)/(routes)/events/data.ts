@@ -371,8 +371,8 @@ export const eventData = [
           { name: "Pravin Rajwani (VALO)", contact: "9327622985" },
           { name: "Mann Soni(BGMI)", contact: "7575074341" },
           { name: "Jaydeep Gohil(BGMI)", contact: "7990643645" },
-          { name: "Sahil Sharma(NSF)", contact: "9376059922" },
-          { name: "Dwip Pandeya(NSF)", contact: "9429108956" },
+          { name: "Sahil Sharma(NFS)", contact: "9376059922" },
+          { name: "Dwip Pandeya(NFS)", contact: "9429108956" },
         ],
         facultyCoordinators: [
           { name: "Prof. Dhaval Khatri", email: "dhaval.khatri@aitindia.in" },
