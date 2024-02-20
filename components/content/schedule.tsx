@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/drawer";
 import { Separator } from "../ui/separator"; // Import the missing module from the correct file path
 import React from "react";
+import { FaBook } from "react-icons/fa";
 export default function Schedule() {
 
 
@@ -33,7 +34,8 @@ export default function Schedule() {
                     name: '2. Mr.Palwinder Singh',
                     description: 'He has  8+ years experience as a Web application developer,  Worked as Subject Matter expert in IBM Career education .Having good experience on Python , Machine learning, Deep learning, Data Analytics, DevOps, MySQL, MongoDB.'
                 },
-            ]
+            ],
+            link: 'CC_Workshop_CE[1].pdf',
         },
         {
             day: 'Pre WORKSHOP Day 2',
@@ -50,7 +52,9 @@ export default function Schedule() {
                     name: '2. Mr. Akshar Ratnani (Cyber Security Analyst)',
                     description: 'He has expertise in the vast field of Cybersecurity domains such as VAPT, SOC, Compliance and Digital Forensics. He has Skills  Network Security ,Penetration Testing,Security Awareness Training, Malware Analysis, Bug Bounty Hunting, Forensics Analysis'
                 },
-            ]},
+            ],
+            link: 'CS_Workshop_CE[1].pdf',
+        },
         {
             day: 'Pre WORKSHOP Day 3',
             time: '29 Feb, 2024',
@@ -66,7 +70,8 @@ export default function Schedule() {
                     name: '2. Ms. Anjali Patel (Developer & Trainer)',
                     description: 'Passionate Android – Python Trainer with 10 years of experience in Android / Python as Trainer. Good Knowledge in Mobile development (Android, Flutter, React Native) and Web Development (Python, Django Web framework). Strong experience in Training environments. Proficient in object-oriented design, data structures, Problem solving and debugging. Fully conversant with the latest IT Innovations and ability to produce high quality deliverable within estimated Time constraints in pressurized environments.'
                 },
-            ]
+            ],
+            link: 'Python_Workshop_CE[1].pdf',
         },
     ];
     const scheduleData = [
@@ -122,6 +127,13 @@ export default function Schedule() {
                                                     <DrawerDescription className="text-left text-xs">{expert.description}</DrawerDescription>
                                                 </React.Fragment>
                                             ))}
+                                            <Separator className="my-2" />
+                                            <Link href={event.link} target="_blank">
+                            <div className="pt-3 flex items-center">
+                              <FaBook className="text-amber-500 " />
+                              <DrawerDescription className="px-2 font-bold uppercase bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">More Details</DrawerDescription>
+                            </div>
+                          </Link>
                                         </DrawerHeader>
 
                                         <DrawerFooter>
