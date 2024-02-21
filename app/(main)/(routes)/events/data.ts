@@ -389,8 +389,8 @@ export const eventData = [
         title: "Sur Nirvaana",
         description: "Musical bands will perform at the end of the event.",
         rounds: "-",
-        team: "-",
-        price: "-",
+        team: "Solo/Team",
+        price: "20 (Per Head)",
         coordinators: [
           { name: "Hetarth Panchal", contact: "9328563827" },
         ],
