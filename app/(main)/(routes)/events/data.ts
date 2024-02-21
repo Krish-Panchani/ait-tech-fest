@@ -527,7 +527,7 @@ export const eventData = [
           { name: "Prof.vanita Dandhwani", email: "vanita.dandhwani@aitindia.in"},
         ],
         imageSrc: "poster/spotlight showdown.png",
-        link: "",
+        link: "rules/The_Spotlight_Showdown.pdf",
       },
       {
         id: 30,
