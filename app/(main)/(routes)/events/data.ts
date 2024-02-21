@@ -280,7 +280,7 @@ export const eventData = [
         team: "2 Members",
         price: "40",
         coordinators: [
-          { name: "Vipksha Parmar", contact: "7016011278" },
+          { name: "Vipiksha Parmar", contact: "7016011278" },
         ],
         facultyCoordinators: [
           { name: "Prof Tripti Sharma", email: "tripti.sharma@aitindia.in" },
@@ -373,7 +373,7 @@ export const eventData = [
           { name: "Mann Soni(BGMI)", contact: "7575074341" },
           { name: "Jaydeep Gohil(BGMI)", contact: "7990643645" },
           { name: "Sahil Sharma(NFS)", contact: "9376059922" },
-          { name: "Dwip Pandeya(NFS)", contact: "9429108956" },
+          { name: "Dwip Pandya(NFS)", contact: "9429108956" },
         ],
         facultyCoordinators: [
           { name: "Prof. Dhaval Khatri", email: "dhaval.khatri@aitindia.in" },
@@ -557,7 +557,7 @@ export const eventData = [
         team: "Solo",
         price: "50",
         coordinators: [
-          { name: "Nakul Parikh", contact: "834790086" },
+          { name: "Drashti Doriya", contact: "9054355330" },
         ],
         facultyCoordinators: [
           { name: "Prof Harshil Panchal", email: "harshil.panchal@aitindia.in" },
