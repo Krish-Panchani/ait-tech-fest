@@ -389,8 +389,8 @@ export const eventData = [
         title: "Sur Nirvaana",
         description: "Musical bands will perform at the end of the event.",
         rounds: "-",
-        team: "-",
-        price: "-",
+        team: "Solo/Team",
+        price: "20 (Per Head)",
         coordinators: [
           { name: "Hetarth Panchal", contact: "9328563827" },
         ],
@@ -527,7 +527,7 @@ export const eventData = [
           { name: "Prof.vanita Dandhwani", email: "vanita.dandhwani@aitindia.in"},
         ],
         imageSrc: "poster/spotlight showdown.png",
-        link: "",
+        link: "rules/The_Spotlight_Showdown.pdf",
       },
       {
         id: 30,
