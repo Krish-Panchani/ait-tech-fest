@@ -87,8 +87,8 @@ export default function Header() {
                   <DrawerTitle>Contact At</DrawerTitle>
                   <Separator className="my-2" />
                   <DrawerTitle>Faculty Co-ordinators</DrawerTitle>
-                  <DrawerDescription>Prof. Namrata Gohel: <Link href={"tel:+91 8866869131"}> +91 8866869131 </Link></DrawerDescription>
-                  <DrawerDescription>Prof. Prachi Patel: <Link href={"tel:+91 8401861255"}> +91 8401861255 </Link></DrawerDescription>
+                  <DrawerDescription>Prof. Namrata Gohel: <Link href={"mailtonamrata.gohel@aitindia.in"}>namrata.gohel@aitindia.in</Link></DrawerDescription>
+                  <DrawerDescription>Prof. Prachi Patel: <Link href={"mailto:prachi.patel@aitindia.in"}>prachi.patel@aitindia.in</Link></DrawerDescription>
                   <DrawerTitle>Students Co-ordinators</DrawerTitle>
                   <DrawerDescription>Hetarth: <Link href={"tel:+91 9328563827"}> +91 9328563827 </Link></DrawerDescription>
                   <DrawerDescription>Rachit: <Link href={"tel:+91 9723395968"}> +91 9723395968 </Link></DrawerDescription>
