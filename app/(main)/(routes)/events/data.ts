@@ -382,7 +382,7 @@ export const eventData = [
         imageSrc: "poster/e-yuddha.jpeg",
         link: "rules/GAMES.pdf",
       },
-      {
+      /*{
         id: 22,
         category: "Non-Technical",
         date: "1 March",
@@ -399,7 +399,7 @@ export const eventData = [
         ],
         imageSrc: "poster/sur_nirvana.jpeg",
         link: "",
-      },
+      },*/
       {
         id: 23,
         category: "Non-Technical",
