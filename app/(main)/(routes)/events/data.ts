@@ -403,7 +403,7 @@ export const eventData = [
       {
         id: 23,
         category: "Non-Technical",
-        date: "1 March",
+        date: "2 March",
         title: "Chakravyuh",
         description: "Participants have to find the hints from the previous hints and the first team to leave the room/reach the final point will win.",
         rounds: "2",
