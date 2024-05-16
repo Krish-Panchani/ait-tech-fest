@@ -68,62 +68,7 @@ export default function Footer() {
           </DrawerContent>
         </Drawer>
         </h1>
-        <h1>& Contributed By {' '}
-        <Drawer>
-          <DrawerTrigger asChild>
-            {/* <Button variant="orange">Details</Button> */}
-            <Link className="font-extrabold hover:underline underline-offset-4 bg-gradient-to-r from-rose-400 to-red-500 bg-clip-text text-transparent" 
-            href="#"> Meet Katarmal</Link>
-          </DrawerTrigger>
-          <DrawerContent>
-            <div className="mx-auto w-full max-w-sm">
-              <DrawerHeader>
-                <DrawerTitle className="font-extrabold text-xl bg-gradient-to-r from-rose-400 to-red-500 bg-clip-text text-transparent">Meet Katarmal&apos;s Handles</DrawerTitle>
-                <Separator className="my-2" />
-                <DrawerTitle>Contact</DrawerTitle>
-                <div className="flex items-center">
-                  <MdOutlineLocalPhone />
-                  <DrawerDescription className="px-2">Phone: <Link href={"tel:+91 8866799347"}> +91 9137674983 </Link></DrawerDescription>
-                </div>
-
-                <div className="flex items-center">
-                  <FaWhatsapp />
-                  <DrawerDescription className="px-2">WhatsApp: <Link href={"https://wa.me/+918866799347"} target="_blank"> +91 9137674983 </Link></DrawerDescription>
-                </div>
-
-                <div className="flex items-center">
-                  <MdOutlineAlternateEmail />
-                  <DrawerDescription className="px-2">Email: <Link href={"mailto:krishpanchani1346@gmail.com"} target="_blank"> katarmalmeet851@gmail.com </Link></DrawerDescription>
-                </div>
-
-                <Separator className="my-2" />
-                <DrawerTitle>Social</DrawerTitle>
-
-                <div className="flex items-center">
-                  <FaInstagram />
-                  <DrawerDescription className="px-2">Instagram: <Link href={"https://www.instagram.com/meet_katarmal?utm_source=qr&igsh=MTA5Z3pndm41a3AzaA=="} target="_blank"> Meet Katarmal </Link></DrawerDescription>
-                </div>
-                <div className="flex items-center">
-                  <FaLinkedin />
-                  <DrawerDescription className="px-2">LinkedIn: <Link href={"https://www.linkedin.com/in/meet-katarmal-118796256/"} target="_blank"> Meet Katarmal </Link></DrawerDescription>
-                </div>
-                <div className="flex items-center">
-                  <FaGithub />
-                  <DrawerDescription className="px-2">GitHub: <Link href={"https://github.com/katarmalmeet"} target="_blank"> Meet Katarmal </Link></DrawerDescription>
-                </div>
-
-              </DrawerHeader>
-
-              <DrawerFooter>
-                {/* <Button>Submit</Button> */}
-                <DrawerClose asChild>
-                  <Button variant="outline">Cancel</Button>
-                </DrawerClose>
-              </DrawerFooter>
-            </div>
-          </DrawerContent>
-        </Drawer>
-            </h1>
+        
       </nav>
     </footer>
   )
